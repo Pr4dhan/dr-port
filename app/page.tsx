@@ -9,22 +9,26 @@ import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
 export default function Home() {
   return (
-    <div className="w-full h-full relative px-[5vw] flex flex-col justify-center items-center xl:flex-row xl:justify-center 2xl:justify-evenly gap-x-10 p-20">
-      <div className="flex flex-col items-center xl:items-start gap-10">
+    <div className="w-full h-full flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-30">
+      <div className="flex flex-col items-center xl:items-start gap-10 text-center xl:text-left">
         <div className="flex flex-col items-center xl:items-start gap-5">
-          <h1 className="text-center lg:max-w-[1000px] 2xl:max-w-none lg:text-left text-4xl md:text-5xl lg:text-7xl px-1 font-normal tracking-tight">
-            Hello! I am{" "}
-            <div className="font-black text-primary dark:animate-rgb">
-              Dr Anuradha Pradhan
-            </div>
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight leading-tight lg:leading-[4.5rem] max-w-[1000px]">
+            Dr Anuradha Pradhan
           </h1>
-          <p className="text-center xl:text-left text-lg lg:text-xl xl:text-2xl px-2 font-medium max-w-[600px] tracking-wide">
+
+          <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mt-2">
             Eye care specialist |{" "}
-            <strong className=" text-primary capitalize dark:animate-rgb">
+            <strong className="text-primary capitalize dark:animate-rgb">
               MS Ophthalmology
             </strong>
           </p>
+
+          <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] mt-4">
+            Expert in Oculoplasty, Cataract, and DCR Surgery, focused on
+            precision and advanced eye care.
+          </p>
         </div>
+
         <div className="flex gap-6">
           <EmailBtn href="mailto:Dr Anuradha Pradhan <info@anuradhapradhan.com>" />
           <ContactBtn href="about" />
@@ -33,14 +37,14 @@ export default function Home() {
       </div>
 
       <CardContainer className="inter-var">
-        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl border ">
+        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl border-3">
           <div className="relative w-full">
             <CardItem className="w-full">
               <Image
                 src="https://res.cloudinary.com/pr4dhan/image/upload/v1741085038/bg_d2exh4.jpg"
                 height="1000"
                 width="1000"
-                className="h-120 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="thumbnail"
               />
             </CardItem>
@@ -49,7 +53,7 @@ export default function Home() {
                 src="https://res.cloudinary.com/pr4dhan/image/upload/v1741082606/top_fgrj24.png"
                 height="1000"
                 width="1000"
-                className="h-120 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="thumbnail"
               />
             </CardItem>

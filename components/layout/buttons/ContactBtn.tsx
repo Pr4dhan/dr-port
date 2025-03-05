@@ -6,7 +6,8 @@ export default function ContactBtn({ href }: { href: string }) {
   return (
     <Link
       href={href}
-      className={`${buttonVariants({ variant: "outline" })}  border-black hover:border-white hover:bg-gray-700 [&>svg>path]:text-black dark:[&>svg>path]:text-white  hover:text-white [&>svg>path]:hover:text-white`}
+      // className={`${buttonVariants({ variant: "outline" })}  border-black hover:border-white hover:bg-gray-700 [&>svg>path]:text-black dark:[&>svg>path]:text-white  hover:text-white [&>svg>path]:hover:text-white`}
+      className={`${buttonVariants({ variant: "outline" })}`}
     >
       <ImProfile />
       About Me
