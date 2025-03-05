@@ -4,12 +4,10 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
-import EmailBtn from "@/components/layout/buttons/EmailBtn";
-import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
-export default function Home() {
+export default function About() {
   return (
-    <div className="w-full h-full relative px-[5vw] flex flex-col justify-center items-center xl:flex-row xl:justify-center 2xl:justify-evenly gap-x-10 p-20">
+    <div className="w-full h-full relative px-[5vw] flex flex-col justify-center items-center xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 p-6">
       <div className="flex flex-col items-center xl:items-start gap-10">
         <div className="flex flex-col items-center xl:items-start gap-5">
           <h1 className="text-center lg:max-w-[1000px] 2xl:max-w-none lg:text-left text-4xl md:text-5xl lg:text-7xl px-1 font-normal tracking-tight">
@@ -26,8 +24,8 @@ export default function Home() {
           </p>
         </div>
         <div className="flex gap-6">
-          <EmailBtn href="mailto:Dr Anuradha Pradhan <info@anuradhapradhan.com>" />
-          <ContactBtn href="about" />
+          <button>Email </button>
+          <button>About Me</button>
           <ThemeSwitchBtn />
         </div>
       </div>
