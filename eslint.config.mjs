@@ -11,12 +11,10 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
-];
-
-module.exports = {
-  rules: {
-    "react-hooks/exhaustive-deps": "off", // Example: Disable exhaustive-deps rule
-    "no-console": "warn", // Change rule severity to a warning instead of an error
+  {
+    rules: {
+      "react-hooks/exhaustive-deps": "off", // Example: Disable exhaustive-deps rule
+      "no-console": "warn", // Change rule severity to a warning instead of an error
+    },
   },
-};
-export default eslintConfig;
+];
