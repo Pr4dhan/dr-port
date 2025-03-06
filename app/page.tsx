@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
 import EmailBtn from "@/components/layout/buttons/EmailBtn";
 import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
@@ -23,7 +22,7 @@ export default function Home() {
             </strong>
           </p>
 
-          <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] mt-4">
+          <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] mt-4 xl:pr-20 pl-6 pr-6 xl:pl-0">
             Expert in Oculoplasty, Cataract, and DCR Surgery, focused on
             precision and advanced eye care.
           </p>
@@ -32,7 +31,6 @@ export default function Home() {
         <div className="flex gap-6">
           <EmailBtn href="mailto:Dr Anuradha Pradhan <info@anuradhapradhan.com>" />
           <ContactBtn href="about" />
-          <ThemeSwitchBtn />
         </div>
       </div>
 

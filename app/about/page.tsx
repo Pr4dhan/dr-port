@@ -1,59 +1,165 @@
 "use client";
-
 import Image from "next/image";
-import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
 
 export default function About() {
   return (
-    <div className="w-full h-full relative px-[5vw] flex flex-col justify-center items-center xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 p-6">
-      <div className="flex flex-col items-center xl:items-start gap-10">
-        <div className="flex flex-col items-center xl:items-start gap-5">
-          <h1 className="text-center lg:max-w-[1000px] 2xl:max-w-none lg:text-left text-4xl md:text-5xl lg:text-7xl px-1 font-normal tracking-tight">
-            Hello! I am{" "}
-            <div className="font-black text-primary dark:animate-rgb">
-              Dr Anuradha Pradhan
-            </div>
-          </h1>
-          <p className="text-center xl:text-left text-lg lg:text-xl xl:text-2xl px-2 font-medium max-w-[600px] tracking-wide">
-            Eye care specialist |{" "}
-            <strong className=" text-primary capitalize dark:animate-rgb">
-              MS Ophthalmology
-            </strong>
-          </p>
+    <>
+      <div className="flex flex-col justify-center w-full text-center mb-12 xl:justify-center 2xl:justify-evenly  pt-25 text-3xl text-black font-bold">
+        <div className="text-4xl text-black font-semibold mb-4">About Me</div>
+        <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+          With over 10 years of experience, I’m dedicated to providing expert
+          eye care for clearer vision and better eye health.
+        </p>
+      </div>
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="aspect-w-1 aspect-h-1">
+          <Image
+            className="object-cover rounded-lg "
+            src="/port.jpeg"
+            alt="Dr Anuradha Pradhan"
+            width={320}
+            height={320}
+            layout="intrinsic"
+          />
         </div>
-        <div className="flex gap-6">
-          <button>Email </button>
-          <button>About Me</button>
-          <ThemeSwitchBtn />
+        <div className=" max-w-lg p-6 flex flex-col items-start space-y-4">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal whitespace-normal text-justify">
+            With over 10 years of experience, advanced ophthalmic care is
+            specialized in to ensure optimal vision and eye health, with a focus
+            on diagnosing and treating patients.
+          </div>
+          <div className="text-xl font-bold">
+            Super Specialization in Oculoplasty
+          </div>
+          <div className="text-sm font-normal whitespace-normal text-justif">
+            With 8 years of expertise in Oculoplasty, eyelid surgeries, orbital
+            trauma management, and lacrimal disorders are specialized in,
+            ensuring both functional and aesthetic eye care.
+          </div>
         </div>
       </div>
 
-      <CardContainer className="inter-var">
-        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl border ">
-          <div className="relative w-full">
-            <CardItem className="w-full">
-              <Image
-                src="https://res.cloudinary.com/pr4dhan/image/upload/v1741085038/bg_d2exh4.jpg"
-                height="1000"
-                width="1000"
-                className="h-120 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="thumbnail"
-              />
-            </CardItem>
-            <CardItem translateZ="80" className="w-full absolute top-0 left-0">
-              <Image
-                src="https://res.cloudinary.com/pr4dhan/image/upload/v1741082606/top_fgrj24.png"
-                height="1000"
-                width="1000"
-                className="h-120 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="thumbnail"
-              />
-            </CardItem>
+      <div className="flex flex-col w-full h-screen items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black font-bold space-y-8">
+        <div className="text-4xl text-black font-semibold">
+          Research Publication
+        </div>
+        <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+          With over 10 years of experience, I’m dedicated to providing expert
+          eye care for clearer vision and better eye health.
+        </p>
+        <div className="w-full h-84 relative">
+          <Image
+            className="object-cover w-full h-full rounded-lg"
+            src="/seminar.jpg"
+            alt="Dr Anuradha Pradhan"
+            // width={640}
+            // height={320}
+            layout="fill"
+          />
+        </div>
+      </div>
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="flex flex-col items-start">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal">VIMSAR</div>
+          <div className="text-xl font-bold">Oculoplasty</div>
+          <div className="text-sm font-normal">LVPEI</div>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <div className="text-4xl text-black font-semibold">
+            Research Publication
           </div>
-        </CardBody>
-      </CardContainer>
-    </div>
+          <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+            With over 10 years of experience, I’m dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="flex flex-col items-start">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal">VIMSAR</div>
+          <div className="text-xl font-bold">Oculoplasty</div>
+          <div className="text-sm font-normal">LVPEI</div>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <div className="text-4xl text-black font-semibold">
+            Research Publication
+          </div>
+          <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+            With over 10 years of experience, I’m dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="flex flex-col items-start">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal">VIMSAR</div>
+          <div className="text-xl font-bold">Oculoplasty</div>
+          <div className="text-sm font-normal">LVPEI</div>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <div className="text-4xl text-black font-semibold">
+            Research Publication
+          </div>
+          <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+            With over 10 years of experience, I’m dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="flex flex-col items-start">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal">VIMSAR</div>
+          <div className="text-xl font-bold">Oculoplasty</div>
+          <div className="text-sm font-normal">LVPEI</div>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <div className="text-4xl text-black font-semibold">
+            Research Publication
+          </div>
+          <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+            With over 10 years of experience, I’m dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className=" w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black font-bold">
+        <div className="flex flex-col items-start">
+          <div className="text-xl font-bold">MS Opthalmology</div>
+          <div className="text-sm font-normal">VIMSAR</div>
+          <div className="text-xl font-bold">Oculoplasty</div>
+          <div className="text-sm font-normal">LVPEI</div>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <div className="text-4xl text-black font-semibold">
+            Research Publication
+          </div>
+          <p className="text-xl text-gray-700 mx-auto max-w-4xl">
+            With over 10 years of experience, I’m dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </p>
+        </div>
+      </div>
+    </>
   );
 }
