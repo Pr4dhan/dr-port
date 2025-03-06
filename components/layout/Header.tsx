@@ -2,17 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { NavLinks } from "@/components/ts/constants/navLinks";
-import { FaBars } from "react-icons/fa";
-import { FaBarsStaggered } from "react-icons/fa6";
+import { FaBars, FaBarsStaggered } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
-import tsukiwaLogoLight from "@/assets/tsukiwa-logo.png";
-import tsukiwaLogoDark from "@/assets/tsukiwa-logo-dark.png";
+import LogoLight from "@/assets/logo.png";
+import LogoDark from "@/assets/logo-dark.png";
 import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
 import Dropdown from "@/components/layout/Dropdown";
 import Anchor from "@/components/layout/Anchor";
 import Version from "@/components/layout/Version";
-import useHeader from "@/components/hooks/useHeader";
+import useHeader from "../hooks/useHeader";
 import LoadingSpinner from "@/components/layout/LoadingSpinner";
 import { Button } from "@/components/ui/Button";
 
@@ -24,10 +23,14 @@ export default function Header() {
 
   useEffect(() => setMounted(true), []);
 
+  if (!mounted) return null;
+
   return (
     <>
       <div
-        className={`w-full h-[60px] z-[1000] fixed top-0 ${scrollHeaderBg}`}
+        className={`w-full h-[60px] z-[1000] fixed top-0 transition-all duration-300 ${
+          scrollHeaderBg ? "bg-white dark:bg-black shadow-sm" : ""
+        }`}
       ></div>
       <header className="container h-[60px] w-full z-[1000] fixed top-0 left-[50%] translate-x-[-50%] px-[8vw] flex justify-between items-center">
         <Link
@@ -40,7 +43,7 @@ export default function Header() {
               className="hidden dark:block"
               priority
               loading="eager"
-              src={tsukiwaLogoLight}
+              src={LogoLight}
               alt="tsukiwa logo"
               width={40}
               height={40}
@@ -49,14 +52,14 @@ export default function Header() {
               className="block dark:hidden"
               priority
               loading="eager"
-              src={tsukiwaLogoDark}
+              src={LogoDark}
               alt="tsukiwa logo"
               width={40}
               height={40}
             />
           </div>
           <h1
-            aria-label="moonbami"
+            aria-label="dranuradha"
             className="relative hidden lg:block font-bold text-sm xl:text-base "
           >
             Dr Anuradha Pradhan
@@ -78,21 +81,23 @@ export default function Header() {
             >
               {isMenuActive ? <FaBarsStaggered /> : <FaBars />}
               {isMenuActive && (
-                <Dropdown position="top-[60px]">
-                  {NavLinks.map((link) => (
-                    <Anchor
-                      href={link.path}
-                      ariaLabel={link.name}
-                      key={link.id}
-                      className={isLinkActive(link.path) ? "active" : ""}
-                      name={link.name}
-                    />
-                  ))}
-                  <div className="flex flex-col gap-4 items-center px-4 mt-4">
-                    <hr className="w-full" />
-                    <Version />
-                  </div>
-                </Dropdown>
+                <div className="relative">
+                  <Dropdown position="top-[60px]left-0 w-[200px]">
+                    {NavLinks.map((link) => (
+                      <Anchor
+                        href={link.path}
+                        aria-label={link.name}
+                        key={link.id}
+                        className={isLinkActive(link.path) ? "active" : ""}
+                        text={link.name}
+                      />
+                    ))}
+                    <div className="flex flex-col gap-4 items-center px-4 mt-4">
+                      <hr className="w-full" />
+                      <Version />
+                    </div>
+                  </Dropdown>
+                </div>
               )}
             </Button>
           ) : (

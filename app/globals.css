@@ -124,3 +124,7 @@
         @apply bg-background text-foreground;
     }
 }
+
+.scrolled-header-bg {
+    @apply bg-gray-900 text-white shadow-md transition-all;
+}
