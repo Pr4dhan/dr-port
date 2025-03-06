@@ -9,7 +9,7 @@ export default function About() {
           About Me
         </div>
         <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-          With over 10 years of experience, I'm dedicated to providing expert
+          With over 10 years of experience, I am dedicated to providing expert
           eye care for clearer vision and better eye health.
         </p>
       </div>
@@ -49,7 +49,7 @@ export default function About() {
           Research Publication
         </div>
         <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-          With over 10 years of experience, I'm dedicated to providing expert
+          With over 10 years of experience, I am dedicated to providing expert
           eye care for clearer vision and better eye health.
         </p>
         <div className="w-full h-84 relative">
@@ -81,7 +81,7 @@ export default function About() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I'm dedicated to providing expert
+            With over 10 years of experience, I am dedicated to providing expert
             eye care for clearer vision and better eye health.
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function About() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I'm dedicated to providing expert
+            With over 10 years of experience, I am dedicated to providing expert
             eye care for clearer vision and better eye health.
           </p>
         </div>
@@ -139,7 +139,7 @@ export default function About() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I'm dedicated to providing expert
+            With over 10 years of experience, I am dedicated to providing expert
             eye care for clearer vision and better eye health.
           </p>
         </div>
@@ -168,7 +168,7 @@ export default function About() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I'm dedicated to providing expert
+            With over 10 years of experience, I am dedicated to providing expert
             eye care for clearer vision and better eye health.
           </p>
         </div>
@@ -197,7 +197,7 @@ export default function About() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I'm dedicated to providing expert
+            With over 10 years of experience, I am dedicated to providing expert
             eye care for clearer vision and better eye health.
           </p>
         </div>
