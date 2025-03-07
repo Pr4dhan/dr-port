@@ -5,7 +5,7 @@ type Props = {
 
 export default function Dropdown({
   children,
-  position = "top-[60px] left-1/2 -translate-x-1/2",
+  position = "top-[60px] right-0",
 }: Props) {
   return (
     <nav

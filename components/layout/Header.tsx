@@ -82,7 +82,7 @@ export default function Header() {
               {isMenuActive ? <FaBarsStaggered /> : <FaBars />}
               {isMenuActive && (
                 <div className="absolute">
-                  <Dropdown position="top-[60px]left-0 w-[200px]">
+                  <Dropdown position="top-[60px]left-0 w-[150px]">
                     {NavLinks.map((link) => (
                       <Anchor
                         href={link.path}
