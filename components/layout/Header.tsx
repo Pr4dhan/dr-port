@@ -44,7 +44,7 @@ export default function Header() {
               priority
               loading="eager"
               src={LogoLight}
-              alt="tsukiwa logo"
+              alt="my logo"
               width={40}
               height={40}
             />
@@ -53,7 +53,7 @@ export default function Header() {
               priority
               loading="eager"
               src={LogoDark}
-              alt="tsukiwa logo"
+              alt="my logo"
               width={40}
               height={40}
             />
@@ -65,7 +65,7 @@ export default function Header() {
             Dr Anuradha Pradhan
           </h1>
         </Link>
-        <nav className="flex items-center gap-2">
+        <nav className="flex items-center gap-4 h-full">
           {mounted ? (
             <Button
               id="menu"
@@ -81,7 +81,7 @@ export default function Header() {
             >
               {isMenuActive ? <FaBarsStaggered /> : <FaBars />}
               {isMenuActive && (
-                <div className="relative">
+                <div className="absolute">
                   <Dropdown position="top-[60px]left-0 w-[200px]">
                     {NavLinks.map((link) => (
                       <Anchor
