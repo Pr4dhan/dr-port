@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Balancer from "react-wrap-balancer";
 
 export default function About() {
   return (
@@ -8,9 +9,12 @@ export default function About() {
         <div className="text-4xl text-black dark:text-white font-semibold mb-4">
           About Me
         </div>
+
         <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-          With over 10 years of experience, I am dedicated to providing expert
-          eye care for clearer vision and better eye health.
+          <Balancer>
+            With over 10 years of experience, I am dedicated to providing expert
+            eye care for clearer vision and better eye health.
+          </Balancer>
         </p>
       </div>
       <div className="w-full h-full relative px-[5vw] flex flex-col justify-center items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black dark:text-white font-bold">
