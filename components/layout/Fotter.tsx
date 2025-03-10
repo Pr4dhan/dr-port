@@ -52,7 +52,7 @@ export default function Fotter() {
             </li>
             <li>
               <a href="/about" className=" text-gray-800 hover:text-gray-900">
-                About
+                About Me
               </a>
             </li>
             <li>

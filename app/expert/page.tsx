@@ -12,7 +12,7 @@ const slides = [
   { src: "/port.jpeg", text: "Eye Checkup & Consultation" },
 ];
 
-export default function Expertise() {
+export default function Expert() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Auto slide every 3 seconds
