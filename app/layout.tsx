@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import { ThemeProvider } from "next-themes";
+// import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,15 +26,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <ThemeProvider attribute="class" defaultTheme="light">
-        <Header />
-      </ThemeProvider>
-
+    <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[linear-gradient(to_right,rgba(0,0,0,0.025)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.025)_1px,transparent_1px)] bg-[size:14px_25px] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.01)_1px,transparent_1px)] dark:bg-[size:14px_25px]`}
       >
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="light">
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

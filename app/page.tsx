@@ -8,7 +8,7 @@ import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-30">
+    <div className="w-full max-w-xl[90rem] h-full flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-30">
       <div className="flex flex-col items-center xl:items-start gap-10 text-center xl:text-left">
         <div className="flex flex-col items-center xl:items-start gap-5">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight leading-tight lg:leading-[4.5rem] max-w-[1000px]">
