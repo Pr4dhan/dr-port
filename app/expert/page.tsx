@@ -98,7 +98,7 @@ export default function Expert() {
             ensuring both functional and aesthetic eye care.
           </div> */}
         </div>
-        <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:ml-10 xl:ml-20">
+        <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] mb-4 sm:mb-0 sm:ml-10 xl:ml-20">
           <Image
             className="object-cover rounded-lg"
             src="/port.jpeg"

@@ -60,7 +60,7 @@ export default function Abour() {
           <div className="flex flex-row justify-center items-start">
             <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mr-5">
               <Image
-                className="object-cover rounded-lg"
+                className="object-cover"
                 src="/vimsar.png"
                 alt="Vimsar"
                 width={64}
@@ -82,8 +82,8 @@ export default function Abour() {
           <div className="flex flex-row justify-center items-start">
             <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mt-2 mr-5">
               <Image
-                className="object-cover rounded-lg"
-                src="/lvpie.png"
+                className="object-cover "
+                src="/lvpie.jpg"
                 alt="Lvpie"
                 width={64}
                 height={64}
