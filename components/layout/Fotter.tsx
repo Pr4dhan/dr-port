@@ -15,10 +15,7 @@ export default function Fotter() {
               id="brand"
               className="flex items-center gap-4 [&>h1]:hover:text-primary dark:[&>h1]:hover:text-primary-light"
             >
-              <div
-                aria-label="tsukiwa-logo"
-                className="rounded-full p-1 w-[40px] "
-              >
+              <div aria-label="logo" className="rounded-full p-1 w-[40px] ">
                 <Image
                   className="hidden dark:block"
                   priority
@@ -40,7 +37,7 @@ export default function Fotter() {
               </div>
               <h1
                 aria-label="dranuradha"
-                className="relative hidden lg:block font-bold text-sm xl:text-base "
+                className="relative block font-bold text-sm xl:text-base "
               >
                 Dr Anuradha Pradhan
               </h1>
