@@ -56,10 +56,7 @@ export default function Fotter() {
               </a>
             </li>
             <li>
-              <a
-                href="/expertise"
-                className=" text-gray-800 hover:text-gray-900"
-              >
+              <a href="/expert" className=" text-gray-800 hover:text-gray-900">
                 Expertise
               </a>
             </li>
