@@ -47,7 +47,7 @@ export default function Fotter() {
             </Link>
           </div>
 
-          <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
+          <ul className="text-lg flex items-center justify-center flex-row gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
               <a href="./" className="text-gray-800 hover:text-gray-900">
                 Home
