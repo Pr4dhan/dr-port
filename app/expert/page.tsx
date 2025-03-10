@@ -78,7 +78,7 @@ export default function Expert() {
         </div>
       </div>
 
-      <div className="max-w-lg p-6 flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
+      <div className="max-w-lg p-6 flex flex-col-reverse items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
         <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
           <div className="text-xl font-bold text-black dark:text-white">
             Advanced Cataract Surgery

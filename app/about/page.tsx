@@ -79,8 +79,8 @@ export default function Abour() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-center items-center">
-            <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mr-5">
+          <div className="flex flex-row justify-center items-start">
+            <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mt-2 mr-5">
               <Image
                 className="object-cover rounded-lg"
                 src="/lvpie.png"
