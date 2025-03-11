@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import { ThemeProvider } from "next-themes";
 import { HighlightInit } from "@highlight-run/next/client";
 // import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+import TrackUserDevice from "@/components/trackUserDevice/index";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,6 +66,7 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="light">
             <Header />
             {children}
+            <TrackUserDevice />
           </ThemeProvider>
         </body>
       </html>
