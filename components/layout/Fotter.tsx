@@ -46,14 +46,17 @@ export default function Fotter() {
 
           <ul className="text-lg flex items-center justify-center flex-row gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
-              <Link href="./" className="text-gray-800 hover:text-gray-900">
+              <Link
+                href="./"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
+              >
                 Home
               </Link>
             </li>
             <li>
               <Link
                 href="/about"
-                className=" text-gray-800 hover:text-gray-900"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
               >
                 About Me
               </Link>
@@ -61,7 +64,7 @@ export default function Fotter() {
             <li>
               <Link
                 href="/expert"
-                className=" text-gray-800 hover:text-gray-900"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
               >
                 Expertise
               </Link>
