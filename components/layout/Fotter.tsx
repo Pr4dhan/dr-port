@@ -46,19 +46,25 @@ export default function Fotter() {
 
           <ul className="text-lg flex items-center justify-center flex-row gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
             <li>
-              <a href="./" className="text-gray-800 hover:text-gray-900">
+              <Link href="./" className="text-gray-800 hover:text-gray-900">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className=" text-gray-800 hover:text-gray-900">
+              <Link
+                href="/about"
+                className=" text-gray-800 hover:text-gray-900"
+              >
                 About Me
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/expert" className=" text-gray-800 hover:text-gray-900">
+              <Link
+                href="/expert"
+                className=" text-gray-800 hover:text-gray-900"
+              >
                 Expertise
-              </a>
+              </Link>
             </li>
           </ul>
           {/* <div className="flex space-x-10 justify-center items-center mb-14">
