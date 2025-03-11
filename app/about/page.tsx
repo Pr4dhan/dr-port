@@ -165,8 +165,8 @@ export default function Abour() {
                   key={index}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
                     index === currentIndex
-                      ? "bg-blue-500 scale-125"
-                      : "bg-gray-300"
+                      ? "bg-blue-50 dark:bg-gray-700 scale-125"
+                      : "bg-gray-500 dark:bg-gray-300"
                   }`}
                 ></div>
               ))}
