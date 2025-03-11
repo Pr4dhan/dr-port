@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 import Fotter from "@/components/layout/Fotter";
 
 const slides = [
-  { src: "/port.jpeg", text: "Oculoplasty Surgery" },
-  { src: "/port.jpeg", text: "Cataract Treatment" },
-  { src: "/port.jpeg", text: "Retina Surgery" },
-  { src: "/port.jpeg", text: "Glaucoma Treatment" },
-  { src: "/port.jpeg", text: "Eye Checkup & Consultation" },
+  { src: "/s1.jpg", text: "Oculoplasty Surgery" },
+  { src: "/s2.jpg", text: "Cataract Treatment" },
+  { src: "/s3.jpg", text: "Retina Surgery" },
+  { src: "/s4.jpg", text: "Glaucoma Treatment" },
+  { src: "/s5.jpg", text: "Eye Checkup & Consultation" },
 ];
 
 export default function Expert() {
@@ -49,8 +49,8 @@ export default function Expert() {
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
           <Image
             className="object-cover rounded-lg"
-            src="/port.jpeg"
-            alt="Dr Anuradha Pradhan"
+            src="/oplas.webp"
+            alt="Oculoplasty"
             width={320}
             height={320}
             layout="intrinsic"
@@ -101,8 +101,8 @@ export default function Expert() {
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] mb-4 sm:mb-0 sm:ml-10 xl:ml-20">
           <Image
             className="object-cover rounded-lg"
-            src="/port.jpeg"
-            alt="Dr Anuradha Pradhan"
+            src="/catrac.jpg"
+            alt="Cataract"
             width={320}
             height={320}
             layout="intrinsic"
@@ -114,8 +114,8 @@ export default function Expert() {
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
           <Image
             className="object-cover rounded-lg"
-            src="/port.jpeg"
-            alt="Dr Anuradha Pradhan"
+            src="/dcr.webp"
+            alt="DCR"
             width={320}
             height={320}
             layout="intrinsic"

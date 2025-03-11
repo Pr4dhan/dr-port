@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 import Fotter from "@/components/layout/Fotter";
 
 const slides = [
-  { src: "/port.jpeg", text: "Oculoplasty Surgery" },
-  { src: "/port.jpeg", text: "Cataract Treatment" },
-  { src: "/port.jpeg", text: "Retina Surgery" },
-  { src: "/port.jpeg", text: "Glaucoma Treatment" },
-  { src: "/port.jpeg", text: "Eye Checkup & Consultation" },
+  { src: "/sam1.jpg", text: "Oculoplasty Surgery" },
+  { src: "/sam2.jpg", text: "Cataract Treatment" },
+  { src: "/sam3.jpg", text: "Retina Surgery" },
+  { src: "/sam4.jpg", text: "Glaucoma Treatment" },
+  { src: "/sam5.jpg", text: "Eye Checkup & Consultation" },
 ];
 
 export default function Abour() {
