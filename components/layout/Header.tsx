@@ -149,7 +149,7 @@ export default function Header() {
 
             {/* Dropdown menu that toggles visibility */}
             {isVisibleMobile && (
-              <div className="relative xl:hidden top-10 right-0 p-4 bg-white dark:bg-gray-800 border rounded shadow-lg z-50 min-w-[100px]">
+              <div className="relative block lg:hidden top-10 right-0 p-4 bg-white dark:bg-gray-800 border rounded shadow-lg z-50 min-w-[100px]">
                 <nav className="flex flex-col items-start gap-4">
                   <Link
                     href="/"
