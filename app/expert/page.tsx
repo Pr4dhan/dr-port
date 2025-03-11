@@ -175,14 +175,14 @@ export default function Expert() {
           <button
             onClick={handlePrev}
             aria-label="Previous Slide"
-            className="absolute top-1/2 left-4 -translate-y-1/2 bg-white dark:bg-black p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
+            className="absolute top-1/2 left-4 -translate-y-1/2 bg-white/35 dark:bg-black/35 p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
           >
             ◀
           </button>
           <button
             onClick={handleNext}
             aria-label="Next Slide"
-            className="absolute top-1/2 right-4 -translate-y-1/2 bg-white dark:bg-black p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
+            className="absolute top-1/2 right-4 -translate-y-1/2 bg-white/35 dark:bg-black/35 p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
           >
             ▶
           </button>
@@ -192,7 +192,7 @@ export default function Expert() {
             {slides.map((_, index) => (
               <div
                 key={index}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`w-10 h-1 rounded-full transition-all duration-300 ${
                   index === currentIndex
                     ? "bg-blue-50 dark:bg-gray-700 scale-125"
                     : "bg-gray-500 dark:bg-gray-300"
