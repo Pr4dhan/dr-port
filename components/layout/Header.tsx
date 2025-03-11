@@ -101,7 +101,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="home"
-                      className="relative block font-bold text-sm xl:text-base "
+                      className="relative block font-regular text-sm xl:text-base "
                     >
                       Home
                     </h1>
@@ -113,7 +113,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="about"
-                      className="relative block font-bold text-sm xl:text-base "
+                      className="relative block font-regular text-sm xl:text-base "
                     >
                       About
                     </h1>
@@ -125,7 +125,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="expertise"
-                      className="relative block font-bold text-sm xl:text-base "
+                      className="relative block font-regular text-sm xl:text-base "
                     >
                       Expertise
                     </h1>
