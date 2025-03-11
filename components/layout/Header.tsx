@@ -24,7 +24,7 @@ export default function Header() {
 
   // Initialize visibility state - hidden on home page, visible elsewhere
   const [isVisible, setIsVisible] = useState(pathname !== "/");
-  const [isVisibleMobile, setIsVisibleMobile] = useState(false);
+  // const [isVisibleMobile, setIsVisibleMobile] = useState(false);
 
   // Update visibility when path changes
   useEffect(() => {
@@ -32,9 +32,9 @@ export default function Header() {
   }, [pathname]);
 
   // Function to toggle visibility
-  const toggleVisibilityMobile = () => {
-    setIsVisibleMobile(!isVisibleMobile);
-  };
+  // const toggleVisibilityMobile = () => {
+  //   setIsVisibleMobile(!isVisibleMobile);
+  // };
 
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
@@ -101,7 +101,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="home"
-                      className="relative hidden lg:block font-bold text-sm xl:text-base "
+                      className="relative block font-bold text-sm xl:text-base "
                     >
                       Home
                     </h1>
@@ -113,7 +113,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="about"
-                      className="relative hidden lg:block font-bold text-sm xl:text-base "
+                      className="relative block font-bold text-sm xl:text-base "
                     >
                       About
                     </h1>
@@ -125,7 +125,7 @@ export default function Header() {
                   >
                     <h1
                       aria-label="expertise"
-                      className="relative hidden lg:block font-bold text-sm xl:text-base "
+                      className="relative block font-bold text-sm xl:text-base "
                     >
                       Expertise
                     </h1>
@@ -140,15 +140,16 @@ export default function Header() {
             <button
               onClick={() => {
                 toggleVisibility();
-                toggleVisibilityMobile();
+                // toggleVisibilityMobile();
               }}
               className="px-2 py-1 bg-white dark:bg-black text-black dark:text-white rounded hover:bg-gray-100 dark:hover:bg-gray-800"
             >
-              {isVisible || isVisibleMobile ? <FaBarsStaggered /> : <FaBars />}
+              {isVisible ? <FaBarsStaggered /> : <FaBars />}
+              {/* {isVisible || isVisibleMobile ? <FaBarsStaggered /> : <FaBars />} */}
             </button>
 
             {/* Dropdown menu that toggles visibility */}
-            {isVisibleMobile && (
+            {/* {isVisibleMobile && (
               <div className="relative block lg:hidden top-10 right-0 p-4 bg-white dark:bg-gray-800 border rounded shadow-lg z-50 min-w-[100px]">
                 <nav className="flex flex-col items-start gap-4">
                   <Link
@@ -174,7 +175,7 @@ export default function Header() {
                   </Link>
                 </nav>
               </div>
-            )}
+            )} */}
           </div>
 
           <ThemeSwitchBtn />
