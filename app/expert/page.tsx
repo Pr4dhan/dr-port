@@ -144,7 +144,7 @@ export default function Expert() {
       <div className="w-full flex items-center justify-center min-h-[60vh]">
         <div
           id="default-carousel"
-          className="relative w-full max-w-[80rem] overflow-hidden"
+          className="relative w-full max-w-[70rem] overflow-hidden"
         >
           <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
             {slides.map((slide, index) => (
