@@ -94,7 +94,7 @@ export default function Header() {
                     href="/"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-regular text-sm xl:text-base">
+                    <h1 className="relative block font-medium text-sm xl:text-base">
                       Home
                     </h1>
                   </Link>
@@ -102,7 +102,7 @@ export default function Header() {
                     href="/about"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-regular text-sm xl:text-base">
+                    <h1 className="relative block font-medium text-sm xl:text-base">
                       About
                     </h1>
                   </Link>
@@ -110,7 +110,7 @@ export default function Header() {
                     href="/expert"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-regular text-sm xl:text-base">
+                    <h1 className="relative block font-medium text-sm xl:text-base">
                       Expertise
                     </h1>
                   </Link>
