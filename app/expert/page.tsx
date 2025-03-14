@@ -5,11 +5,26 @@ import { useState, useEffect } from "react";
 import Fotter from "@/components/layout/Fotter";
 
 const slides = [
-  { src: "/s1.jpg", text: "Oculoplasty Surgery" },
-  { src: "/s2.jpg", text: "Cataract Treatment" },
-  { src: "/s3.jpg", text: "Retina Surgery" },
-  { src: "/s4.jpg", text: "Glaucoma Treatment" },
-  { src: "/s5.jpg", text: "Eye Checkup & Consultation" },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d1_rcf0dc.svg",
+    text: "Oculoplasty Surgery",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d2_rud4lp.svg",
+    text: "Cataract Treatment",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d3_k8e7vf.svg",
+    text: "Retina Surgery",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927013/d4_chrygx.svg",
+    text: "Glaucoma Treatment",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d5_o69swv.svg",
+    text: "Eye Checkup & Consultation",
+  },
 ];
 
 export default function Expert() {
@@ -41,22 +56,24 @@ export default function Expert() {
         </div>
 
         <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-          With over 10 years of experience, I am dedicated to providing expert
-          eye care for clearer vision and better eye health.
+          A highly skilled Eye Specialist with over 10 years of experience,
+          dedicated to advanced eye care and precision surgeries. Passionate
+          about enhancing vision and aesthetics through Oculoplasty, Cataract,
+          and DCR surgeries.
         </p>
       </div>
       <div className="max-w-lg p-6 flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
           <Image
             className="object-cover rounded-lg"
-            src="/oplas.webp"
+            src="https://res.cloudinary.com/pr4dhan/image/upload/v1741928833/oplas_ayomhs.webp"
             alt="Oculoplasty"
             width={320}
             height={320}
             layout="intrinsic"
           />
         </div>
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm dark:shadow-[0_5px_20px_rgba(255,255,255,0.1)]">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Oculoplasty and Cosmetic Eye Surgery
           </div>
@@ -79,7 +96,7 @@ export default function Expert() {
       </div>
 
       <div className="max-w-lg p-6 flex flex-col-reverse items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Advanced Cataract Surgery
           </div>
@@ -101,7 +118,7 @@ export default function Expert() {
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] mb-4 sm:mb-0 sm:ml-10 xl:ml-20">
           <Image
             className="object-cover rounded-lg"
-            src="/catrac.jpg"
+            src="https://res.cloudinary.com/pr4dhan/image/upload/v1741928833/catrac_hqmlm4.jpg"
             alt="Cataract"
             width={320}
             height={320}
@@ -114,14 +131,14 @@ export default function Expert() {
         <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
           <Image
             className="object-cover rounded-lg"
-            src="/dcr.webp"
+            src="https://res.cloudinary.com/pr4dhan/image/upload/v1741928832/dcr_lhcopa.webp"
             alt="DCR"
             width={320}
             height={320}
             layout="intrinsic"
           />
         </div>
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Dacryocystorhinostomy Surgery
           </div>

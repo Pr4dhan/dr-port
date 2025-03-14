@@ -5,11 +5,26 @@ import { useState, useEffect } from "react";
 import Fotter from "@/components/layout/Fotter";
 
 const slides = [
-  { src: "/sam1.jpg", text: "Oculoplasty Surgery" },
-  { src: "/sam2.jpg", text: "Cataract Treatment" },
-  { src: "/sam3.jpg", text: "Retina Surgery" },
-  { src: "/sam4.jpg", text: "Glaucoma Treatment" },
-  { src: "/sam5.jpg", text: "Eye Checkup & Consultation" },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s1_tsmm4l.svg",
+    text: "Oculoplasty Surgery",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s2_iqntlw.svg",
+    text: "Cataract Treatment",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s3_mkdxtv.svg",
+    text: "Retina Surgery",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s4_esktsk.svg",
+    text: "Glaucoma Treatment",
+  },
+  {
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926160/s5_jjcldb.svg",
+    text: "Eye Checkup & Consultation",
+  },
 ];
 
 export default function Abour() {
@@ -42,27 +57,28 @@ export default function Abour() {
           </div>
 
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I am dedicated to providing expert
-            eye care for clearer vision and better eye health.
+            A highly skilled Eye Specialist with over 10 years of experience, I
+            am dedicated to providing expert eye care for clearer vision and
+            better eye health.
           </p>
         </div>
         <div className="max-w-lg p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
           <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
             <Image
               className="object-cover rounded-lg"
-              src="/port.jpeg"
+              src="https://res.cloudinary.com/pr4dhan/image/upload/v1741926104/port_ttvnzz.jpg"
               alt="Dr Anuradha Pradhan"
               width={320}
               height={320}
               layout="intrinsic"
             />
           </div>
-          <div className="max-w-lg p-6 flex flex-col items-start space-y-8 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
+          <div className="max-w-lg p-6 flex flex-col items-start space-y-8 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
             <div className="flex flex-row justify-center items-start">
               <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mr-5">
                 <Image
                   className="object-cover"
-                  src="/vimsar.png"
+                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741928833/vimsar_dsxm1v.png"
                   alt="Vimsar"
                   width={64}
                   height={64}
@@ -84,7 +100,7 @@ export default function Abour() {
               <div className="flex justify-center items-center w-full max-w-[64px] 2xl:max-w-[64px] mt-2 mr-5">
                 <Image
                   className="object-cover "
-                  src="/lvpie.jpg"
+                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741928832/lvpie_dyog5b.jpg"
                   alt="Lvpie"
                   width={64}
                   height={64}
@@ -111,8 +127,9 @@ export default function Abour() {
             Research Publication
           </div>
           <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            With over 10 years of experience, I am dedicated to providing expert
-            eye care for clearer vision and better eye health.
+            I have an active presence in academics and research, with multiple
+            papers published in renowned medical journals. My work focuses on
+            contributing to innovation in ophthalmology.
           </p>
         </div>
         {/* corosel section */}
@@ -179,13 +196,13 @@ export default function Abour() {
             </div>
           </div>
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black dark:text-white font-bold">
-            <div className="flex flex-col items-start bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
-                MS Opthalmology
+                Research Publication
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
-                VIMSAR
+              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+                DOI: 2020
               </div>
               {/* <div className="text-xl font-bold text-black dark:text-white">
                 Oculoplasty
@@ -194,25 +211,32 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="text-4xl text-black dark:text-white font-semibold">
-                Research Publication
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+              <div className="text-2xl text-black dark:text-white font-semibold">
+                Infantile simple dacryops: clinicopathological correlation and
+                immunocharacterization
               </div>
-              <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-                With over 10 years of experience, I am dedicated to providing
-                expert eye care for clearer vision and better eye health.
+              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+                Anuradha Pradhan , Devjyoti Tripathy Dr , Ruchi Mittal
               </p>
+              <a
+                href="https://pubmed.ncbi.nlm.nih.gov/32709788/"
+                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                target="_blank"
+              >
+                https://pubmed.ncbi.nlm.nih.gov/32709788
+              </a>
             </div>
           </div>
           <br />
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black dark:text-white font-bold">
-            <div className="flex flex-col items-start bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
-                MS Opthalmology
+                Research Publication
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
-                VIMSAR
+              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+                DOI: 2019
               </div>
               {/* <div className="text-xl font-bold text-black dark:text-white">
                 Oculoplasty
@@ -221,25 +245,33 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="text-4xl text-black dark:text-white font-semibold">
-                Research Publication
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+              <div className="text-2xl text-black dark:text-white font-semibold">
+                Thyroid eye disease survey: An anonymous web-based survey in the
+                Indian subcontinent
               </div>
-              <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-                With over 10 years of experience, I am dedicated to providing
-                expert eye care for clearer vision and better eye health.
+              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+                Anuradha Pradhan, Anasua Ganguly, Milind N Naik, Akshay
+                Gopinathan Nair, Savari Desai, Suryasnata Rath
               </p>
+              <a
+                href="https://pubmed.ncbi.nlm.nih.gov/31821863/"
+                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                target="_blank"
+              >
+                https://pubmed.ncbi.nlm.nih.gov/31821863
+              </a>
             </div>
           </div>
           <br />
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-y-12 gap-x-10 text-3xl text-black dark:text-white font-bold">
-            <div className="flex flex-col items-start bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
+          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold ">
+            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
-                MS Opthalmology
+                Research Publication
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
-                VIMSAR
+              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+                DOI: 2016
               </div>
               {/* <div className="text-xl font-bold text-black dark:text-white">
                 Oculoplasty
@@ -248,14 +280,22 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-              <div className="text-4xl text-black dark:text-white font-semibold">
-                Research Publication
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+              <div className="text-2xl text-black dark:text-white font-semibold">
+                Tenzel’s: an adorable reconstruction surgery to create beautiful
+                near normal eyelids.
               </div>
-              <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-                With over 10 years of experience, I am dedicated to providing
-                expert eye care for clearer vision and better eye health.
+              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+                Anuradha Pradhan, Ratan Deep Kumar Agrawalla, Sharmistha Behera,
+                Pramod Kumar Sharma, Kanhei Charan
               </p>
+              <a
+                href="https://www.ijooo.org/article-details/3085/"
+                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                target="_blank"
+              >
+                https://www.ijooo.org/article-details/3085
+              </a>
             </div>
           </div>
           <br />
