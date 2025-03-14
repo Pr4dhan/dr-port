@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Dr. Anuradha Pradhan is a leading ophthalmologist and oculoplasty surgeon in Bhubaneswar. Specializing in cataract surgery, oculoplasty, and DCR. Book your consultation today!",
   openGraph: {
-    title: "Dr. Anuradha Pradhan - Best Eye Doctor in Bhubaneswar",
+    title: "Dr. Anuradha Pradhan - Best Eye Care Specialist in Bhubaneswar",
     description:
       "Experienced in Cataract Surgery, Oculoplasty, DCR & more. Contact Dr. Pradhan for personalized eye care solutions.",
     url: "https://www.anuradhapradhan.com/",
