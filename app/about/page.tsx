@@ -217,7 +217,7 @@ export default function Abour() {
                 immunocharacterization
               </div>
               <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-                Anuradha Pradhan , Devjyoti Tripathy Dr , Ruchi Mittal
+                Anuradha Pradhan, Devjyoti Tripathy, Ruchi Mittal
               </p>
               <a
                 href="https://pubmed.ncbi.nlm.nih.gov/32709788/"
