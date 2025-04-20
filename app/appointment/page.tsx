@@ -24,21 +24,21 @@ export default function Appointment() {
             <HospitalCard
               name="Kar Vision Eye Hospital"
               imageUrl="https://res.cloudinary.com/pr4dhan/image/upload/v1745128981/KAra_arqohe.png"
-              schedule="Mon to Sat 9 AM to 5 PM"
+              schedule="Mon to Sat: 9 AM to 5 PM"
               location="10, Janpath, Satya Nagar, Bhubaneswar, Odisha, 751007"
               phone=" (+91) 81143 88593"
               phone2=" (+91) 94387 94618"
-              isOpen={true}
+              // isOpen={true}
             />
             
             <HospitalCard
               name="Shree Hospitals"
               imageUrl="https://res.cloudinary.com/pr4dhan/image/upload/v1745128982/shreeS_u0rkx0.png"
-              schedule="Mon to Sat 5:30 PM to 7 PM"
+              schedule="Mon to Sat: 6 PM to 7 PM"
               location="246, Lewis Rd, BJB Nagar, Bhubaneswar, Odisha 751014"
               phone=" (+91) 90400 96460"
               phone2=" (+91) 90400 96460"
-              isOpen={false}
+              // isOpen={false}
             />
           </div>
         </div>

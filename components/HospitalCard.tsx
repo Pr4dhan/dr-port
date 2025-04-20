@@ -1,5 +1,5 @@
 import { Clock, MapPin, Phone } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/Button";
 
 interface HospitalCardProps {
@@ -9,7 +9,7 @@ interface HospitalCardProps {
   location: string;
   phone: string;
   phone2: string;
-  isOpen?: boolean;
+  // isOpen?: boolean;
 }
 
 const HospitalCard = ({
@@ -19,7 +19,7 @@ const HospitalCard = ({
   location,
   phone,
   phone2,
-  isOpen = true,
+  // isOpen = true,
 }: HospitalCardProps) => {
   return (
     <div className="w-full max-w-md p-6 bg-white border border-gray-200 rounded-2xl shadow-md transition-all duration-300 hover:shadow-lg">
@@ -37,12 +37,12 @@ const HospitalCard = ({
         <div className="flex-1">
           <div className="flex items-center justify-between">
             <h3 className="text-xl font-bold text-gray-900">{name}</h3>
-            <Badge 
+            {/* <Badge 
               variant={isOpen ? "default" : "secondary"} 
               className="bg-gray-200 text-gray-800"
             >
               {isOpen ? "Open" : "Closed"}
-            </Badge>
+            </Badge> */}
           </div>
 
           {/* Schedule */}
