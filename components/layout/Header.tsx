@@ -45,7 +45,7 @@ export default function Header() {
   if (!mounted) return null;
 
   return (
-    <>
+    <>   
       <div
         className={`w-full h-[60px] z-[1000] fixed top-0 transition-all duration-300 ${
           scrollHeaderBg || isMobileMenuOpen
