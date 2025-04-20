@@ -46,13 +46,13 @@ const HospitalCard = ({
           </div>
 
           {/* Schedule */}
-          <div className="mt-2 flex items-center text-sm text-gray-700">
+          <div className="mt-2 flex items-center text-sm text-gray-700 font-bold">
             <Clock className="w-4 h-4 mr-2 text-gray-600" />
             <span>{schedule}</span>
           </div>
 
           {/* Location */}
-          <div className="mt-1 flex items-center text-sm text-gray-700">
+          <div className="mt-1 flex items-center text-sm text-gray-700 font-bold">
             <MapPin className="w-4 h-4 mr-2 text-gray-600" />
             <span>{location}</span>
           </div>

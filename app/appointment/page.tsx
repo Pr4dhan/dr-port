@@ -16,7 +16,7 @@ export default function Appointment() {
           </div>
 
           <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            Here you can find the days and times when specific doctors are available at listed hospitals.
+            Find the days and times when Dr. Anuradha Pradhan is available at listed hospitals
           </p>
         </div>
         <div className="w-full flex justify-center">
