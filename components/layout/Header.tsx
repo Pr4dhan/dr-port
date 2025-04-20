@@ -88,7 +88,7 @@ export default function Header() {
         </Link>
         <nav className="flex flex-end items-center gap-4 h-full">
           {/* Desktop Navigation Menu - Only visible on larger screens */}
-          <div className="hidden sm:block">
+          <div className="hidden lg:block">
             {isVisible && (
               <div>
                 <nav className="flex items-center gap-4 h-full">
@@ -122,7 +122,7 @@ export default function Header() {
           </div>
           <AppoitmentBtn/>
           {/* Mobile Menu Toggle Button */}
-          <div className="relative hidden sm:block">
+          <div className="relative hidden lg:block">
             <button
               onClick={() => {
                 // On desktop, toggle the desktop menu
@@ -140,13 +140,13 @@ export default function Header() {
               {isVisible || isMobileMenuOpen ? <FaBarsStaggered /> : <FaBars />}
             </button>
           </div>
-          <div className="hidden sm:block">
+          <div className="hidden lg:block">
           <ThemeSwitchBtn />
           </div>
         </nav>
       </header>
 
-      <div className="block sm:hidden">
+      <div className="block lg:hidden">
         <BottomCornerNav />
       </div>
     </>
