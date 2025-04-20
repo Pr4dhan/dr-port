@@ -7,6 +7,7 @@ import Link from "next/link";
 import LogoLight from "@/assets/logo.png";
 import LogoDark from "@/assets/logo-dark.png";
 import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
+import AppoitmentBtn from "@/components/layout/buttons/AppoitmentBtn";
 import useHeader from "../hooks/useHeader";
 import { usePathname } from "next/navigation";
 
@@ -121,6 +122,7 @@ export default function Header() {
 
           {/* Mobile Menu Toggle Button */}
           <div className="relative">
+            <AppoitmentBtn/>
             <button
               onClick={() => {
                 // On desktop, toggle the desktop menu
@@ -138,7 +140,6 @@ export default function Header() {
               {isVisible || isMobileMenuOpen ? <FaBarsStaggered /> : <FaBars />}
             </button>
           </div>
-
           <ThemeSwitchBtn />
         </nav>
       </header>
