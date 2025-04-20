@@ -46,13 +46,13 @@ export default function Header() {
 
   return (
     <>
-      <div
+      {/* <div
         className={`w-full h-[60px] z-[1000] fixed top-0 transition-all duration-300 ${
           scrollHeaderBg || isMobileMenuOpen
             ? "bg-white dark:bg-black shadow-sm"
             : ""
         }`}
-      ></div>
+      ></div> */}
       <header className="container h-[60px] w-full z-[1000] fixed top-0 left-[50%] translate-x-[-50%] px-[8vw] flex justify-between items-center">
         <Link
           href="/"

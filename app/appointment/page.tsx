@@ -37,7 +37,7 @@ export default function Appointment() {
               schedule="Mon to Sat: 6 PM to 7 PM"
               location="246, Lewis Rd, BJB Nagar, Bhubaneswar, Odisha 751014"
               phone=" (+91) 90400 96460"
-              phone2=" (+91) 90400 96460"
+              phone2=" (+91) 90400 96450"
               // isOpen={false}
             />
           </div>
