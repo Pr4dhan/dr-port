@@ -55,7 +55,7 @@ export default function Expert() {
           My Expertise
         </div>
 
-        <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+        <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
           A highly skilled Eye Specialist with over 10 years of experience,
           dedicated to advanced eye care and precision surgeries. Passionate
           about enhancing vision and aesthetics through Oculoplasty, Cataract,

@@ -7,6 +7,7 @@ import Link from "next/link";
 import LogoLight from "@/assets/logo.png";
 import LogoDark from "@/assets/logo-dark.png";
 import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
+import BottomCornerNav from "@/components/ui/BottomCornerNav";
 import AppoitmentBtn from "@/components/layout/buttons/AppoitmentBtn";
 import useHeader from "../hooks/useHeader";
 import { usePathname } from "next/navigation";
@@ -119,10 +120,9 @@ export default function Header() {
               </div>
             )}
           </div>
-
+          <AppoitmentBtn/>
           {/* Mobile Menu Toggle Button */}
-          <div className="relative">
-            <AppoitmentBtn/>
+          <div className="relative hidden sm:block">
             <button
               onClick={() => {
                 // On desktop, toggle the desktop menu
@@ -140,40 +140,15 @@ export default function Header() {
               {isVisible || isMobileMenuOpen ? <FaBarsStaggered /> : <FaBars />}
             </button>
           </div>
+          <div className="hidden sm:block">
           <ThemeSwitchBtn />
+          </div>
         </nav>
       </header>
 
-      {/* Mobile Menu - Horizontal Dropdown */}
-      {isMobileMenuOpen && (
-        <div className="fixed top-[60px] left-0 right-0 z-[999] sm:hidden bg-white dark:bg-black shadow-md transition-all duration-300">
-          <nav className="container mx-auto px-[8vw] py-2 flex justify-center overflow-x-auto">
-            <div className="flex space-x-6 items-center">
-              <Link
-                href="/"
-                className="whitespace-nowrap py-2 px-3 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-primary dark:hover:text-primary-light text-sm font-medium"
-                onClick={toggleMobileMenu}
-              >
-                Home
-              </Link>
-              <Link
-                href="/about"
-                className="whitespace-nowrap py-2 px-3 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-primary dark:hover:text-primary-light text-sm font-medium"
-                onClick={toggleMobileMenu}
-              >
-                About
-              </Link>
-              <Link
-                href="/expert"
-                className="whitespace-nowrap py-2 px-3 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-primary dark:hover:text-primary-light text-sm font-medium"
-                onClick={toggleMobileMenu}
-              >
-                Expertise
-              </Link>
-            </div>
-          </nav>
-        </div>
-      )}
+      <div className="block sm:hidden">
+        <BottomCornerNav />
+      </div>
     </>
   );
 }

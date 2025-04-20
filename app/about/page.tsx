@@ -56,7 +56,7 @@ export default function Abour() {
             About Me
           </div>
 
-          <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 test-justify">
             A highly skilled Eye Specialist with over 10 years of experience, I
             am dedicated to providing expert eye care for clearer vision and
             better eye health.
@@ -126,7 +126,7 @@ export default function Abour() {
           <div className="text-4xl text-black dark:text-white font-semibold">
             Research Publication
           </div>
-          <p className="text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
             I have an active presence in academics and research, with multiple
             papers published in renowned medical journals. My work focuses on
             contributing to innovation in ophthalmology.
