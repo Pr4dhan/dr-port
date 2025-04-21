@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import Fotter from "@/components/layout/Fotter";
+import Footer from "@/components/layout/Footer";
 
 const slides = [
   {
@@ -216,7 +216,7 @@ export default function Expert() {
           </div>
         </div>
       </div>
-      <Fotter />
+      <Footer />
     </>
   );
 }

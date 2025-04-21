@@ -2,7 +2,7 @@
 
 // import Image from "next/image";
 import React from "react";
-
+import Footer from "@/components/layout/Footer";
 import HospitalCard from "@/components/HospitalCard";
 
 export default function Appointment() {
@@ -42,6 +42,9 @@ export default function Appointment() {
             />
           </div>
         </div>
+        <footer className="w-full  md:pt-28">
+        <Footer />
+        </footer>
     </div>
     </>
   );

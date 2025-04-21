@@ -15,16 +15,15 @@ export default function Home() {
             Dr Anuradha Pradhan
           </h1>
 
-          <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] xl:mt-1">
+          <div className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] xl:mt-1">
             MBBS |{" "}
             <strong className="text-primary capitalize dark:animate-rgb">
               MS Ophthalmology
             </strong>
-            <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mx-2 md:px-0">
+            <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mx-2 md:mx-0">
             Fellowship in Oculoplasty, Ocular-aesthetic and Oncology
-          </p>
-            
-          </p>
+            </p>
+          </div>
           
 
           <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] xl:mt-2 xl:pr-20 mx-0 md:px-6 xl:pl-0">
