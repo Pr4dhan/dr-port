@@ -56,10 +56,7 @@ export default function Expert() {
         </div>
 
         <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
-          A highly skilled Eye Specialist with over 10 years of experience,
-          dedicated to advanced eye care and precision surgeries. Passionate
-          about enhancing vision and aesthetics through Oculoplasty, Cataract,
-          and DCR surgeries.
+        With over a decade of experience as an Eye Specialist, I specialize in advanced eye care and precision surgical techniques. My passion lies in restoring vision and enhancing aesthetics through Oculoplasty, Cataract, and DCR surgeries.
         </p>
       </div>
       <div className="max-w-lg p-6 flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
