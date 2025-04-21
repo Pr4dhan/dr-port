@@ -56,7 +56,7 @@ export default function Abour() {
             About Me
           </div>
 
-          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 test-justify">
+          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl px-4 text-justify md:text-center">
           I bring over 10 years of experience as a skilled Eye Specialist, delivering expert eye care to enhance vision and promote long-term eye health.
           </p>
         </div>
