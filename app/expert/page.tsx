@@ -51,7 +51,7 @@ export default function Expert() {
   return (
     <>
       <div className="flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-25 text-3xl text-black dark:text-white font-bold">
-        <div className="text-4xl text-black dark:text-white font-semibold mb-4">
+        <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
           My Expertise
         </div>
 

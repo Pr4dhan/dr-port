@@ -52,7 +52,7 @@ export default function Abour() {
     <>
       <div className={"flex flex-col items-center"}>
         <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-25 text-3xl text-black dark:text-white font-bold">
-          <div className="text-4xl text-black dark:text-white font-semibold mb-4">
+          <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
             About Me
           </div>
 
@@ -121,7 +121,7 @@ export default function Abour() {
         </div>
 
         <div className="m-0 p-0 flex flex-col w-full min-h-[35vh] items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
-          <div className="text-4xl text-black dark:text-white font-semibold">
+          <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold">
             Research Publication
           </div>
           <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">

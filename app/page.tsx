@@ -20,14 +20,14 @@ export default function Home() {
             <strong className="text-primary capitalize dark:animate-rgb">
               MS Ophthalmology
             </strong>
-            <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] px-4 md:px-0">
+            <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mx-2 md:px-0">
             Fellowship in Oculoplasty, Ocular-aesthetic and Oncology
           </p>
             
           </p>
           
 
-          <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] xl:mt-2 xl:pr-20 px-2 md:px-6 xl:pl-0">
+          <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] xl:mt-2 xl:pr-20 mx-0 md:px-6 xl:pl-0">
             Expert in Cataract, Oculoplasty and DCR Surgery, focused on
             precision and advanced eye care.
           </p>
