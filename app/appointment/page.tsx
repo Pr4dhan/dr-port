@@ -9,7 +9,7 @@ export default function Appointment() {
   return (
 
     <>
-    <div className={"justify-center w-full p-4"}>
+    <div className={"justify-center w-full px-1"}>
         <div className="flex flex-col justify-center items-center w-full text-center mb-12 xl:justify-items-center pt-25 text-3xl text-black dark:text-white font-bold">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
             Hospital Visit Schedule
