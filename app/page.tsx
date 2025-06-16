@@ -8,6 +8,7 @@ import ContactBtn from "@/components/layout/buttons/ContactBtn";
 
 export default function Home() {
   return (
+    <div className="w-full h-full flex flex-col justify-center items-center bg-white dark:bg-black text-black dark:text-white">
     <div className="w-full max-w-xl[90rem] h-full flex-box sm:flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-30">
       <div className="flex flex-col items-center xl:items-start gap-10 text-center xl:text-left">
         <div className="flex flex-col items-center xl:items-start gap-5">
@@ -62,6 +63,17 @@ export default function Home() {
           </div>
         </CardBody>
       </CardContainer>
+    </div>
+    <div className="relative w-full max-w-4xl mx-auto aspect-video">
+    <iframe
+      className="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/YQ7CdZGyfXE?start=134"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      ></iframe>
+    </div>
     </div>
   );
 }
