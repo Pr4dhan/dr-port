@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import { ThemeProvider } from "next-themes";
 import { HighlightInit } from "@highlight-run/next/client";
 import TrackUserDevice from "@/components/trackUserDevice/index";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -89,6 +90,7 @@ export default function RootLayout({
             <Header />
             {children}
             <TrackUserDevice />
+            <Analytics />
           </ThemeProvider>
         </body>
       </html>
