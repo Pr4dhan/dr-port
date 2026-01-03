@@ -71,9 +71,12 @@ export default function Footer() {
             </li>
           </ul>
           <span className="text-sm text-gray-500 text-center block">
-            ©
-            <a href="https://www.anuradhapradhan.com/"> Dr Anuradha Pradhan</a>{" "}
-            2025, All rights reserved.
+            © {new Date().getFullYear()}
+            <a href="https://www.anuradhapradhan.com/">
+              {" "}
+              Dr Anuradha Pradhan.
+            </a>{" "}
+            All rights reserved.
           </span>
         </div>
       </div>
