@@ -6,23 +6,23 @@ import Footer from "@/components/layout/Footer";
 
 const slides = [
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d1_rcf0dc.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s1_tsmm4l.svg",
     text: "Oculoplasty Surgery",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d2_rud4lp.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s2_iqntlw.svg",
     text: "Cataract Treatment",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d3_k8e7vf.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s3_mkdxtv.svg",
     text: "Retina Surgery",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927013/d4_chrygx.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s4_esktsk.svg",
     text: "Glaucoma Treatment",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741927014/d5_o69swv.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926160/s5_jjcldb.svg",
     text: "Eye Checkup & Consultation",
   },
 ];
@@ -45,7 +45,7 @@ export default function Expert() {
 
   const handlePrev = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + slides.length) % slides.length,
+      (prevIndex) => (prevIndex - 1 + slides.length) % slides.length
     );
   };
   return (
@@ -56,7 +56,10 @@ export default function Expert() {
         </div>
 
         <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
-        With over a decade of experience as an Eye Specialist, I specialize in advanced eye care and precision surgical techniques. My passion lies in restoring vision and enhancing aesthetics through Oculoplasty, Cataract, and DCR surgeries.
+          With over a decade of experience as an Eye Specialist, I specialize in
+          advanced eye care and precision surgical techniques. My passion lies
+          in restoring vision and enhancing aesthetics through Oculoplasty,
+          Cataract, and DCR surgeries.
         </p>
       </div>
       <div className="max-w-lg p-6 flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
