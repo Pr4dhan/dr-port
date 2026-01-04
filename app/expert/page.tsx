@@ -6,25 +6,25 @@ import Footer from "@/components/layout/Footer";
 
 const slides = [
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s1_tsmm4l.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/c_crop,w_800,h_300,g_auto,e_improve,e_sharpen/v1767512452/1c_ecdv4z.jpg",
     text: "Oculoplasty Surgery",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s2_iqntlw.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/c_crop,w_800,h_300,g_auto,e_improve,e_sharpen/v1767512148/1b_dt6sqm.jpg",
     text: "Cataract Treatment",
   },
   {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s3_mkdxtv.svg",
+    src: "https://res.cloudinary.com/pr4dhan/image/upload/c_crop,w_800,h_300,g_auto,e_improve,e_sharpen/v1767512148/1a_jcu8ly.jpg",
     text: "Retina Surgery",
   },
-  {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s4_esktsk.svg",
-    text: "Glaucoma Treatment",
-  },
-  {
-    src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926160/s5_jjcldb.svg",
-    text: "Eye Checkup & Consultation",
-  },
+  // {
+  //   src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926162/s4_esktsk.svg",
+  //   text: "Glaucoma Treatment",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/pr4dhan/image/upload/v1741926160/s5_jjcldb.svg",
+  //   text: "Eye Checkup & Consultation",
+  // },
 ];
 
 export default function Expert() {
