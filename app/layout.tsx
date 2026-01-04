@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import { ThemeProvider } from "next-themes";
-import { HighlightInit } from "@highlight-run/next/client";
-import TrackUserDevice from "@/components/trackUserDevice/index";
+// import { HighlightInit } from "@highlight-run/next/client";
+// import TrackUserDevice from "@/components/trackUserDevice/index";
 import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
@@ -71,7 +71,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <HighlightInit
+      {/* <HighlightInit
         projectId={"ldwy0ylg"}
         serviceName="my-nextjs-frontend"
         tracingOrigins
@@ -80,7 +80,7 @@ export default function RootLayout({
           recordHeadersAndBody: true,
           urlBlocklist: [],
         }}
-      />
+      /> */}
 
       <html className="light" style={{ colorScheme: "light" }}>
         <body
@@ -89,7 +89,7 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="system">
             <Header />
             {children}
-            <TrackUserDevice />
+            {/* <TrackUserDevice /> */}
             <Analytics />
           </ThemeProvider>
         </body>

@@ -45,7 +45,7 @@ export default function Header() {
   if (!mounted) return null;
 
   return (
-    <>   
+    <>
       <div
         className={`w-full h-[60px] z-[1000] fixed top-0 transition-all duration-300 ${
           scrollHeaderBg || isMobileMenuOpen
@@ -96,7 +96,7 @@ export default function Header() {
                     href="/"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-medium text-sm xl:text-base">
+                    <h1 className="relative block font-semibold text-sm xl:text-base">
                       Home
                     </h1>
                   </Link>
@@ -104,7 +104,7 @@ export default function Header() {
                     href="/about"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-medium text-sm xl:text-base">
+                    <h1 className="relative block font-semibold text-sm xl:text-base">
                       About
                     </h1>
                   </Link>
@@ -112,7 +112,7 @@ export default function Header() {
                     href="/expert"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
                   >
-                    <h1 className="relative block font-medium text-sm xl:text-base">
+                    <h1 className="relative block font-semibold text-sm xl:text-base">
                       Expertise
                     </h1>
                   </Link>
@@ -120,7 +120,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <AppoitmentBtn/>
+          <AppoitmentBtn />
           {/* Mobile Menu Toggle Button */}
           <div className="relative hidden lg:block">
             <button
@@ -141,7 +141,7 @@ export default function Header() {
             </button>
           </div>
           <div className="hidden lg:block">
-          <ThemeSwitchBtn />
+            <ThemeSwitchBtn />
           </div>
         </nav>
       </header>
