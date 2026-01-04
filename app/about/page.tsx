@@ -90,7 +90,7 @@ export default function Abour() {
                   MS Opthalmology
                 </div>
                 <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
-                  With over 10 years of experience, advanced ophthalmic care is
+                  With over 12 years of experience, advanced ophthalmic care is
                   specialized in to ensure optimal vision and eye health, with a
                   focus on diagnosing and treating patients.
                 </div>
@@ -112,7 +112,7 @@ export default function Abour() {
                   Super Specialization in Oculoplasty
                 </div>
                 <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
-                  With 8 years of expertise in Oculoplasty, eyelid surgeries,
+                  With about 10 years of expertise in Oculoplasty, eyelid surgeries,
                   orbital trauma management, and lacrimal disorders are
                   specialized in, ensuring both functional and aesthetic eye
                   care.
