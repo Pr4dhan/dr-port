@@ -43,7 +43,7 @@ export default function Home() {
             <div className="relative w-full">
               <CardItem className="w-full">
                 <Image
-                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741085038/bg_d2exh4.jpg"
+                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741082605/main_mmkldt.jpg"
                   height="1000"
                   width="1000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"

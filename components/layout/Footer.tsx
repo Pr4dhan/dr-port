@@ -48,7 +48,7 @@ export default function Footer() {
             <li>
               <Link
                 href="./"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
+                className="text-gray-500 hover:text-gray-900 font-bold dark:hover:text-gray-100"
               >
                 Home
               </Link>
@@ -56,7 +56,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/about"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
+                className="text-gray-500 hover:text-gray-900 font-bold dark:hover:text-gray-100"
               >
                 About
               </Link>
@@ -64,7 +64,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/expert"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
+                className="text-gray-500 hover:text-gray-900 font-bold dark:hover:text-gray-100"
               >
                 Expertise
               </Link>
