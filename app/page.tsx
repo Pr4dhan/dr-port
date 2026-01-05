@@ -5,7 +5,6 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import EmailBtn from "@/components/layout/buttons/EmailBtn";
 import ContactBtn from "@/components/layout/buttons/ContactBtn";
-import { YouTubeEmbed } from "@next/third-parties/google";
 
 export default function Home() {
   return (
