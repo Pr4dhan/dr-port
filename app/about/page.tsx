@@ -62,7 +62,7 @@ export default function Abour() {
             eye health.
           </p>
         </div>
-        <div className="max-w-lg p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
+        <div className="max-w-lg sm:p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
           <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
             <Image
               className="object-cover rounded-lg"
