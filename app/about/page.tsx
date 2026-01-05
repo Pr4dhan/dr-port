@@ -104,12 +104,13 @@ export default function Abour() {
         <div className="w-full max-w-4xl mx-auto aspect-video my-4 sm:my-0">
           <iframe
             className="w-full h-full rounded-lg"
-            src="https://www.youtube.com/embed/YQ7CdZGyfXE?start=134"
+            src="https://www.youtube.com/embed/YQ7CdZGyfXE?start=134&rel=0&modestbranding=1&controls=1&iv_load_policy=3&disablekb=1&playsinline=1"
             title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="autoplay; encrypted-media; picture-in-picture"
             allowFullScreen
-          />
+          ></iframe>
         </div>
+
         <div className="mt-4 sm:mt-18 p-0 flex flex-col w-full min-h-auto items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold">
             Research Publication
