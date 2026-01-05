@@ -57,9 +57,9 @@ export default function Abour() {
           </div>
 
           <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl px-4 text-justify md:text-center">
-            I bring more than a decade of experience as a skilled Eye Specialist,
-            delivering expert eye care to enhance vision and promote long-term
-            eye health.
+            I bring more than a decade of experience as a skilled Eye
+            Specialist, delivering expert eye care to enhance vision and promote
+            long-term eye health.
           </p>
         </div>
         <div className="max-w-lg sm:p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
@@ -112,24 +112,23 @@ export default function Abour() {
                   Super Specialization in Oculoplasty
                 </div>
                 <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
-                  With about 10 years of expertise in Oculoplasty, eyelid surgeries,
-                  orbital trauma management, and lacrimal disorders are
-                  specialized in, ensuring both functional and aesthetic eye
+                  With about 10 years of expertise in Oculoplasty, eyelid
+                  surgeries, orbital trauma management, and lacrimal disorders
+                  are specialized in, ensuring both functional and aesthetic eye
                   care.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative w-full max-w-4xl mx-auto aspect-video">
+        <div className="w-full max-w-4xl mx-auto aspect-video mt-4 sm:mt-0">
           <iframe
-            className="absolute top-0 left-0 w-full h-full"
+            className="w-full h-full rounded-lg"
             src="https://www.youtube.com/embed/YQ7CdZGyfXE?start=134"
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
-          ></iframe>
+          />
         </div>
         <div className="m-0 p-0 flex flex-col w-full min-h-[35vh] items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold">
