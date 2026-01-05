@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import Footer from "@/components/layout/Footer";
+import EmblaCarousel from "@/components/ui/EmblaCarousel";
 
 const slides = [
   {
@@ -28,30 +28,10 @@ const slides = [
 ];
 
 export default function Abour() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Auto slide every 3 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      handleNext();
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, [currentIndex]);
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-  };
-
-  const handlePrev = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + slides.length) % slides.length
-    );
-  };
   return (
     <>
       <div className={"flex flex-col items-center"}>
-        <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-25 text-3xl text-black dark:text-white font-bold">
+        <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-24 text-3xl text-black dark:text-white font-bold">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
             About Me
           </div>
@@ -121,7 +101,7 @@ export default function Abour() {
             </div>
           </div>
         </div>
-        <div className="w-full max-w-4xl mx-auto aspect-video mt-4 sm:mt-0">
+        <div className="w-full max-w-4xl mx-auto aspect-video my-4 sm:my-0">
           <iframe
             className="w-full h-full rounded-lg"
             src="https://www.youtube.com/embed/YQ7CdZGyfXE?start=134"
@@ -130,11 +110,11 @@ export default function Abour() {
             allowFullScreen
           />
         </div>
-        <div className="m-0 p-0 flex flex-col w-full min-h-[35vh] items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
+        <div className="mt-4 sm:mt-18 p-0 flex flex-col w-full min-h-auto items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold">
             Research Publication
           </div>
-          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
+          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl px-4 text-justify">
             I have an active presence in academics and research, with multiple
             papers published in renowned medical journals. My work focuses on
             contributing to innovation in ophthalmology.
@@ -142,65 +122,9 @@ export default function Abour() {
         </div>
         {/* corosel section */}
         <div className="m-0 p-0 max-w-[80rem] flex flex-col justify-evenly items-center">
-          <div className="w-full flex items-center justify-center min-h-[60vh]">
-            <div
-              id="default-carousel"
-              className="relative w-full max-w-[70rem] overflow-hidden"
-            >
-              <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                {slides.map((slide, index) => (
-                  <div
-                    key={index}
-                    className={`absolute inset-0 transition-all duration-1000 ease-in-out transform ${
-                      index === currentIndex
-                        ? "opacity-100 scale-100 translate-x-0"
-                        : "opacity-0 scale-95 translate-x-10"
-                    }`}
-                  >
-                    <Image
-                      src={slide.src}
-                      alt="Expertise Image"
-                      width={500}
-                      height={300}
-                      className="w-full h-full object-cover rounded-lg"
-                      loading="lazy"
-                    />
-                    <div className="absolute bottom-0 left-0 w-full bg-transparent text-white text-center py-6">
-                      {slide.text}
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Slider controls */}
-              <button
-                onClick={handlePrev}
-                aria-label="Previous Slide"
-                className="absolute top-1/2 left-4 -translate-y-1/2 bg-white/35 dark:bg-black/35 p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
-              >
-                ◀
-              </button>
-              <button
-                onClick={handleNext}
-                aria-label="Next Slide"
-                className="absolute top-1/2 right-4 -translate-y-1/2 bg-white/35 dark:bg-black/35 p-3 rounded-full shadow-lg z-10 hover:bg-gray-200 dark:hover:bg-gray-800"
-              >
-                ▶
-              </button>
-
-              {/* Indicators */}
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-                {slides.map((_, index) => (
-                  <div
-                    key={index}
-                    className={`w-10 h-1 rounded-full transition-all duration-300 ${
-                      index === currentIndex
-                        ? "bg-blue-50 dark:bg-gray-700 scale-125"
-                        : "bg-gray-500 dark:bg-gray-300"
-                    }`}
-                  ></div>
-                ))}
-              </div>
+          <div className="w-full flex items-center justify-center py-10">
+            <div className="relative w-full max-w-[70rem] px-4">
+              <EmblaCarousel slides={slides} />
             </div>
           </div>
 
