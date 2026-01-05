@@ -205,7 +205,7 @@ export default function Abour() {
             </div>
           </div>
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication
@@ -239,7 +239,7 @@ export default function Abour() {
           </div>
           <br />
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication
@@ -274,7 +274,7 @@ export default function Abour() {
           </div>
           <br />
 
-          <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold ">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold ">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication

@@ -7,16 +7,16 @@ import HospitalCard from "@/components/HospitalCard";
 
 export default function Appointment() {
   return (
-
     <>
-    <div className={"justify-center w-full px-1"}>
+      <div className={"min-h-screen flex flex-col"}>
         <div className="flex flex-col justify-center items-center w-full text-center mb-12 xl:justify-items-center pt-25 text-3xl text-black dark:text-white font-bold">
           <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
             Hospital Visit Schedule
           </div>
 
           <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
-            Find the days and times when Dr. Anuradha Pradhan is available at listed hospitals
+            Find the days and times when Dr. Anuradha Pradhan is available at
+            listed hospitals
           </p>
         </div>
         <div className="w-full flex justify-center">
@@ -30,7 +30,7 @@ export default function Appointment() {
               phone2=" (+91) 94387 94618"
               // isOpen={true}
             />
-            
+
             <HospitalCard
               name="Shree Hospitals"
               imageUrl="https://res.cloudinary.com/pr4dhan/image/upload/v1745128982/shreeS_u0rkx0.png"
@@ -42,10 +42,10 @@ export default function Appointment() {
             />
           </div>
         </div>
-        <footer className="w-full  md:pt-28">
-        <Footer />
+        <footer className="mt-auto">
+          <Footer />
         </footer>
-    </div>
+      </div>
     </>
   );
 }
