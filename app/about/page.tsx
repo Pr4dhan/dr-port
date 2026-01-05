@@ -206,7 +206,7 @@ export default function Abour() {
           </div>
 
           <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
-            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication
               </div>
@@ -220,7 +220,7 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-2xl text-black dark:text-white font-semibold">
                 Infantile simple dacryops: clinicopathological correlation and
                 immunocharacterization
@@ -240,7 +240,7 @@ export default function Abour() {
           <br />
 
           <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
-            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication
               </div>
@@ -254,7 +254,7 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-2xl text-black dark:text-white font-semibold">
                 Thyroid eye disease survey: An anonymous web-based survey in the
                 Indian subcontinent
@@ -275,7 +275,7 @@ export default function Abour() {
           <br />
 
           <div className="w-full h-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold ">
-            <div className="flex flex-col items-start bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-xl font-bold text-black dark:text-white">
                 Research Publication
               </div>
@@ -289,7 +289,7 @@ export default function Abour() {
                 LVPEI
               </div> */}
             </div>
-            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-black p-6 rounded-lg shadow-sm dark:shadow-gray-800">
+            <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
               <div className="text-2xl text-black dark:text-white font-semibold">
                 Tenzel’s: an adorable reconstruction surgery to create beautiful
                 near normal eyelids.

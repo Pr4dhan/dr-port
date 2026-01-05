@@ -20,7 +20,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         toggle:
-          "bg-white text-black hover:bg-gray-100 dark:bg-gray-800 dark:text-white",
+          "bg-white text-black hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-transparent dark:text-white",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
@@ -33,7 +33,7 @@ const buttonVariants = cva(
       variant: "default",
       size: "default",
     },
-  },
+  }
 );
 
 function Button({

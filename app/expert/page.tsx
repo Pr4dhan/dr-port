@@ -73,7 +73,7 @@ export default function Expert() {
             layout="intrinsic"
           />
         </div>
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Oculoplasty and Cosmetic Eye Surgery
           </div>
@@ -96,7 +96,7 @@ export default function Expert() {
       </div>
 
       <div className="max-w-lg p-6 flex flex-col-reverse items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Advanced Cataract Surgery
           </div>
@@ -138,7 +138,7 @@ export default function Expert() {
             layout="intrinsic"
           />
         </div>
-        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-black rounded-lg shadow-sm dark:shadow-gray-800">
+        <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
           <div className="text-xl font-bold text-black dark:text-white">
             Dacryocystorhinostomy Surgery
           </div>

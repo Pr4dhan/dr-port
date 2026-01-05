@@ -22,7 +22,7 @@ const HospitalCard = ({
 }: // isOpen = true,
 HospitalCardProps) => {
   return (
-    <div className="w-full max-w-md p-6 bg-white dark:bg-black border border-gray-200 dark:border-gray-800 rounded-2xl shadow-md transition-all duration-300 hover:shadow-lg">
+    <div className="w-full max-w-md p-6 bg-white dark:bg-zinc-950 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-md transition-all duration-300 hover:shadow-lg">
       <div className="flex gap-4 items-start">
         {/* Hospital Image */}
         <div className="flex-shrink-0">
@@ -63,7 +63,7 @@ HospitalCardProps) => {
           <div className="mt-2">
             <Button
               variant="outline"
-              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:bg-black dark:text-white"
+              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950 dark:text-white"
               onClick={() => (window.location.href = `tel:${phone}`)}
             >
               <Phone className="w-4 h-4" />
@@ -73,7 +73,7 @@ HospitalCardProps) => {
           <div className="mt-2">
             <Button
               variant="outline"
-              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:bg-black dark:text-white"
+              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950 dark:text-white"
               onClick={() => (window.location.href = `tel:${phone2}`)}
             >
               <Phone className="w-4 h-4" />

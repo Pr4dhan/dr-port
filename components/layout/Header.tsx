@@ -94,7 +94,7 @@ export default function Header() {
                 <nav className="flex items-center gap-4 h-full">
                   <Link
                     href="/"
-                    className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
+                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       Home
@@ -102,7 +102,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/about"
-                    className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
+                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       About
@@ -110,7 +110,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/expert"
-                    className="flex items-center gap-4 hover:text-primary dark:hover:text-primary-light"
+                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       Expertise
@@ -134,7 +134,7 @@ export default function Header() {
                   toggleMobileMenu();
                 }
               }}
-              className="px-2 py-1 bg-white dark:bg-black text-black dark:text-white rounded hover:bg-gray-100 dark:hover:bg-gray-800"
+              className="px-2 py-1 bg-white dark:bg-transparent text-black dark:text-white rounded hover:bg-gray-100 dark:hover:bg-zinc-900"
               aria-label="Toggle navigation menu"
             >
               {isVisible || isMobileMenuOpen ? <FaBarsStaggered /> : <FaBars />}
