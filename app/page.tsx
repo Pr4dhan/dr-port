@@ -43,11 +43,12 @@ export default function Home() {
             <div className="relative w-full">
               <CardItem className="w-full">
                 <Image
-                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741082605/main_mmkldt.jpg"
+                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1767690070/main_cz3dqa.webp"
                   height="1000"
                   width="1000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
+                  priority
                 />
               </CardItem>
               <CardItem
@@ -55,7 +56,7 @@ export default function Home() {
                 className="w-full absolute top-0 left-0"
               >
                 <Image
-                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1741082606/top_fgrj24.png"
+                  src="https://res.cloudinary.com/pr4dhan/image/upload/v1767689951/top_ic942a.webp"
                   height="1000"
                   width="1000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
