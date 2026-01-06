@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   title: "Dr Anuradha Pradhan",
   description:
     "Dr. Anuradha Pradhan is a leading ophthalmologist and oculoplasty surgeon in Bhubaneswar. Specializing in cataract surgery, oculoplasty, and DCR. Book your consultation today!",
