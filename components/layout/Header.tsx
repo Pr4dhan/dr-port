@@ -94,7 +94,7 @@ export default function Header() {
                 <nav className="flex items-center gap-4 h-full">
                   <Link
                     href="/"
-                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
+                    className="flex items-center gap-4 hover:text-primary dark:hover:text-teal-500 hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       Home
@@ -102,7 +102,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/about"
-                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
+                    className="flex items-center gap-4 hover:text-primary dark:hover:text-teal-500 hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       About
@@ -110,7 +110,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/expert"
-                    className="flex items-center gap-4 hover:text-primary hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
+                    className="flex items-center gap-4 hover:text-primary dark:hover:text-teal-500 hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
                   >
                     <h1 className="relative block font-semibold text-sm xl:text-base">
                       Expertise

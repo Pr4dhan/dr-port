@@ -18,7 +18,7 @@ export default function Home() {
 
             <div className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] xl:mt-1">
               MBBS |{" "}
-              <strong className="text-primary capitalize dark:animate-rgb">
+              <strong className="text-primary dark:text-teal-500 capitalize dark:animate-rgb">
                 MS Ophthalmology
               </strong>
               <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mx-2 md:mx-0">
