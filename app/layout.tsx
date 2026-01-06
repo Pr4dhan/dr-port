@@ -18,10 +18,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "app/favicon.png",
-    apple: "app/favicon.png",
-  },
   title: "Dr Anuradha Pradhan",
   description:
     "Dr. Anuradha Pradhan is a leading ophthalmologist and oculoplasty surgeon in Bhubaneswar. Specializing in cataract surgery, oculoplasty, and DCR. Book your consultation today!",
@@ -56,6 +52,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <link rel="icon" href="/icon.png" type="image/png" />
+      <link rel="apple-touch-icon" href="/apple-icon.png" type="image/png" />
       {/* <HighlightInit
         projectId={"ldwy0ylg"}
         serviceName="my-nextjs-frontend"
