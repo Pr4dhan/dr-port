@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "app/favicon.webp",
-    apple: "app/favicon.webp",
+    icon: "app/favicon.png",
+    apple: "app/favicon.png",
   },
   title: "Dr Anuradha Pradhan",
   description:
