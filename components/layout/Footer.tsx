@@ -50,7 +50,7 @@ export default function Footer() {
           from-[#a0a0a0] via-[#e8e8e8] to-[#ffffff]
           dark:from-[#8c8c8c] dark:via-[#2b2b2b] dark:to-[#010101]
           opacity-90
-          text-4xl md:text-[6rem]
+          text-[clamp(2rem,6vw,7rem)]
           -z-[1]"
       >
         DrAnuradhaPradhan
