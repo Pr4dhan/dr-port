@@ -81,7 +81,7 @@ export default function Header() {
           </div>
           <h1
             aria-label="dranuradha"
-            className="relative hidden sm:block font-bold text-sm xl:text-base "
+            className="relative hidden sm:block text-stone-800 dark:text-stone-200 font-bold text-sm xl:text-base "
           >
             Dr Anuradha Pradhan
           </h1>
@@ -91,7 +91,7 @@ export default function Header() {
           <div className="hidden lg:block">
             {isVisible && (
               <div>
-                <nav className="flex items-center gap-4 h-full">
+                <nav className="flex items-center gap-4 h-full text-stone-800 dark:text-stone-200">
                   <Link
                     href="/"
                     className="flex items-center gap-4 hover:text-primary dark:hover:text-teal-500 hover:bg-gray-100 dark:hover:bg-zinc-900 px-1 py-1 rounded-md"
@@ -134,7 +134,7 @@ export default function Header() {
                   toggleMobileMenu();
                 }
               }}
-              className="px-2 py-1 bg-white dark:bg-transparent text-black dark:text-white rounded hover:bg-gray-100 dark:hover:bg-zinc-900"
+              className="px-2 py-1 bg-white dark:bg-transparent text-stone-800 dark:text-stone-200 rounded hover:bg-gray-100 dark:hover:bg-zinc-900"
               aria-label="Toggle navigation menu"
             >
               {isVisible || isMobileMenuOpen ? <FaBarsStaggered /> : <FaBars />}

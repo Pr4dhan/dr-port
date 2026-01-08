@@ -12,21 +12,21 @@ export default function Home() {
       <div className="flex flex-col xl:flex-row justify-center items-center gap-10 pt-20 xl:pt-50">
         <div className="flex flex-col items-center xl:items-start gap-10 text-center xl:text-left">
           <div className="flex flex-col items-center xl:items-start gap-5">
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight leading-tight lg:leading-[4.5rem] max-w-[1000px]">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl text-stone-800 dark:text-stone-200 font-bold tracking-tight leading-tight lg:leading-[4.5rem] max-w-[1000px]">
               Dr Anuradha Pradhan
             </h1>
 
-            <div className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] xl:mt-1">
+            <div className="text-lg lg:text-xl xl:text-2xl text-stone-800 dark:text-stone-200 font-medium tracking-wide max-w-[700px] xl:mt-1">
               MBBS |{" "}
-              <strong className="text-primary dark:text-teal-500 capitalize dark:animate-rgb">
+              <strong className="text-stone-800 dark:text-stone-200 dark:text-teal-500 capitalize dark:animate-rgb">
                 MS Ophthalmology
               </strong>
-              <p className="text-lg lg:text-xl xl:text-2xl font-medium tracking-wide max-w-[700px] mx-2 md:mx-0">
+              <p className="text-lg lg:text-xl xl:text-2xl text-stone-800 dark:text-stone-200 font-medium tracking-wide max-w-[700px] mx-2 md:mx-0">
                 Fellowship in Oculoplasty, Ocular-aesthetic and Oncology
               </p>
             </div>
 
-            <p className="text-base lg:text-lg xl:text-xl font-normal tracking-wide leading-relaxed max-w-[700px] xl:mt-2 xl:pr-20 mx-0 md:px-6 xl:pl-0">
+            <p className="text-base lg:text-lg xl:text-xl text-stone-800 dark:text-stone-200 font-normal tracking-wide leading-relaxed max-w-[700px] xl:mt-2 xl:pr-20 mx-0 md:px-6 xl:pl-0">
               Expert in Cataract, Oculoplasty and DCR Surgery, focused on
               precision and advanced eye care.
             </p>

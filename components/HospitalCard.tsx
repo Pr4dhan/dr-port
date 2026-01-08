@@ -39,7 +39,7 @@ HospitalCardProps) => {
         {/* Hospital Info */}
         <div className="flex-1">
           <div className="flex items-center justify-between">
-            <h3 className="text-xl font-bold text-black dark:text-white">
+            <h3 className="text-xl font-bold text-stone-700 dark:text-stone-300">
               {name}
             </h3>
             {/* <Badge 
@@ -51,14 +51,14 @@ HospitalCardProps) => {
           </div>
 
           {/* Schedule */}
-          <div className="mt-2 flex items-center text-sm text-black dark:text-white font-bold">
-            <Clock className="w-4 h-4 mr-2 text-gray-600" />
+          <div className="mt-2 flex items-center text-sm text-stone-700 dark:text-stone-300 font-bold">
+            <Clock className="w-4 h-4 mr-2 text-stone-800 dark:text-stone-200" />
             <span>{schedule}</span>
           </div>
 
           {/* Location */}
-          <div className="mt-1 flex items-center text-sm ttext-black dark:text-white font-bold">
-            <MapPin className="w-4 h-4 mr-2 text-gray-600" />
+          <div className="mt-1 flex items-center text-sm text-stone-700 dark:text-stone-300 font-bold">
+            <MapPin className="w-4 h-4 mr-2 text-stone-800 dark:text-stone-200" />
             <span>{location}</span>
           </div>
 
@@ -66,7 +66,7 @@ HospitalCardProps) => {
           <div className="mt-2">
             <Button
               variant="outline"
-              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950 dark:text-white"
+              className="text-sm flex items-center gap-2 text-stone-700 dark:text-stone-300 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950"
               onClick={() => (window.location.href = `tel:${phone}`)}
             >
               <Phone className="w-4 h-4" />
@@ -76,7 +76,7 @@ HospitalCardProps) => {
           <div className="mt-2">
             <Button
               variant="outline"
-              className="text-sm flex items-center gap-2 text-gray-900 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950 dark:text-white"
+              className="text-sm flex items-center gap-2 text-stone-700 dark:text-stone-300 border-gray-100 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-zinc-900 dark:bg-zinc-950"
               onClick={() => (window.location.href = `tel:${phone2}`)}
             >
               <Phone className="w-4 h-4" />

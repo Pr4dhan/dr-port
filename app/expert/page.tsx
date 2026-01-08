@@ -32,11 +32,11 @@ export default function Expert() {
   return (
     <>
       <div className="flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-24 text-3xl text-black dark:text-white font-bold">
-        <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
+        <div className="text-2xl md:text-4xl text-stone-800 dark:text-stone-200 font-semibold mb-4">
           My Expertise
         </div>
 
-        <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl p-4 text-justify">
+        <p className="text-base md:text-xl text-stone-700 dark:text-stone-300 mx-auto max-w-4xl p-4 text-justify">
           With over a decade of experience as an Eye Specialist, I specialize in
           advanced eye care and precision surgical techniques. My passion lies
           in restoring vision and enhancing aesthetics through Oculoplasty,
@@ -55,10 +55,10 @@ export default function Expert() {
           />
         </div>
         <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
-          <div className="text-xl font-bold text-black dark:text-white">
+          <div className="text-xl font-bold text-stone-700 dark:text-stone-300">
             Oculoplasty and Cosmetic Eye Surgery
           </div>
-          <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
+          <div className="text-sm font-normal whitespace-normal text-justify text-stone-700 dark:text-stone-300">
             As an Oculoplasty expert, I specialize in the diagnosis and surgical
             treatment of eyelid, lacrimal (tear duct), and orbital disorders. My
             focus is on enhancing both the function and aesthetic appearance of
@@ -78,10 +78,10 @@ export default function Expert() {
 
       <div className="max-w-lg p-6 flex flex-col-reverse items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
         <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
-          <div className="text-xl font-bold text-black dark:text-white">
+          <div className="text-xl font-bold text-stone-700 dark:text-stone-300">
             Advanced Cataract Surgery
           </div>
-          <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
+          <div className="text-sm font-normal whitespace-normal text-justify text-stone-700 dark:text-stone-300">
             I am highly skilled in performing advanced cataract surgery,
             utilizing techniques like phacoemulsification and premium
             intraocular lens implants to restore clear vision with the highest
@@ -120,10 +120,10 @@ export default function Expert() {
           />
         </div>
         <div className="max-w-lg p-6 flex flex-col items-start space-y-4 bg-white dark:bg-zinc-950 rounded-lg shadow-sm dark:shadow-gray-800">
-          <div className="text-xl font-bold text-black dark:text-white">
+          <div className="text-xl font-bold text-stone-700 dark:text-stone-300">
             Dacryocystorhinostomy Surgery
           </div>
-          <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
+          <div className="text-sm font-normal whitespace-normal text-justify text-stone-700 dark:text-stone-300">
             With extensive experience in DCR surgery, I effectively treat
             blocked tear ducts, ensuring proper tear drainage and providing
             relief from excessive tearing and related discomfort.
@@ -149,4 +149,3 @@ export default function Expert() {
   );
 }
 
-// Carousel component removed as it is now being imported from @/components/ui/EmblaCarousel

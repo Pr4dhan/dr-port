@@ -31,18 +31,18 @@ export default function Abour() {
   return (
     <>
       <div className={"flex flex-col items-center"}>
-        <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-24 text-3xl text-black dark:text-white font-bold">
-          <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
+        <div className="m-0 p-0 flex flex-col justify-center w-full text-center mb-12 xl:justify-center pt-24 text-3xl text-stone-800 dark:text-stone-200 font-bold">
+          <div className="text-2xl md:text-4xl text-stone-800 dark:text-stone-200 font-semibold mb-4">
             About Me
           </div>
 
-          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl px-4 text-justify md:text-center">
+          <p className="text-base md:text-xl text-stone-700 dark:text-stone-300 mx-auto max-w-4xl px-4 text-justify md:text-center">
             I bring more than a decade of experience as a skilled Eye
             Specialist, delivering expert eye care to enhance vision and promote
             long-term eye health.
           </p>
         </div>
-        <div className="max-w-lg sm:p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-black dark:text-white font-bold">
+        <div className="max-w-lg sm:p-6 pb-[10px] sm:pb-[2vw] md:pb-[3vw] lg:pb-[4vw] xl:pb-[5vw] flex flex-col items-center sm:max-w-full sm:flex-row sm:justify-center space-y-4 text-3xl text-stone-800 dark:text-stone-200 font-bold">
           <div className="flex justify-center items-center w-full max-w-[320px] 2xl:max-w-[420px] sm:mr-10 xl:mr-20">
             <Image
               className="object-cover rounded-lg"
@@ -66,10 +66,10 @@ export default function Abour() {
                 />
               </div>
               <div>
-                <div className="text-xl font-bold text-black dark:text-white">
+                <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                   MS Opthalmology
                 </div>
-                <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
+                <div className="text-sm font-normal whitespace-normal text-justify text-stone-700 dark:text-stone-200">
                   With over 12 years of experience, advanced ophthalmic care is
                   specialized in to ensure optimal vision and eye health, with a
                   focus on diagnosing and treating patients.
@@ -88,10 +88,10 @@ export default function Abour() {
                 />
               </div>
               <div>
-                <div className="text-xl font-bold text-black dark:text-white">
+                <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                   Super Specialization in Oculoplasty
                 </div>
-                <div className="text-sm font-normal whitespace-normal text-justify text-gray-700 dark:text-gray-300">
+                <div className="text-sm font-normal whitespace-normal text-justify text-stone-700 dark:text-stone-200">
                   With about 10 years of expertise in Oculoplasty, eyelid
                   surgeries, orbital trauma management, and lacrimal disorders
                   are specialized in, ensuring both functional and aesthetic eye
@@ -111,11 +111,11 @@ export default function Abour() {
           ></iframe>
         </div>
 
-        <div className="mt-4 sm:mt-18 p-0 flex flex-col w-full min-h-auto items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-black dark:text-white font-bold space-y-8">
-          <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold">
+        <div className="mt-4 sm:mt-18 p-0 flex flex-col w-full min-h-auto items-center justify-center text-center xl:justify-center 2xl:justify-center text-3xl text-stone-800 dark:text-stone-200 font-bold space-y-8">
+          <div className="text-2xl md:text-4xl text-stone-800 dark:text-stone-200 font-semibold">
             Research Publication
           </div>
-          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl px-4 text-justify">
+          <p className="text-base md:text-xl text-stone-700 dark:text-stone-300 mx-auto max-w-4xl px-4 text-justify">
             I have an active presence in academics and research, with multiple
             papers published in renowned medical journals. My work focuses on
             contributing to innovation in ophthalmology.
@@ -129,32 +129,32 @@ export default function Abour() {
             </div>
           </div>
 
-          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-stone-800 dark:text-stone-200 font-bold">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-xl font-bold text-black dark:text-white">
+              <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Research Publication
               </div>
-              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-bold text-stone-700 dark:text-stone-300">
                 DOI: 2020
               </div>
-              {/* <div className="text-xl font-bold text-black dark:text-white">
+              {/* <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Oculoplasty
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-normal text-stone-700 dark:text-stone-200">
                 LVPEI
               </div> */}
             </div>
             <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-2xl text-black dark:text-white font-semibold">
+              <div className="text-2xl text-stone-800 dark:text-stone-200 font-semibold">
                 Infantile simple dacryops: clinicopathological correlation and
                 immunocharacterization
               </div>
-              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+              <p className="text-lg text-stone-700 dark:text-stone-300 mx-auto max-w-4xl">
                 Anuradha Pradhan, Devjyoti Tripathy, Ruchi Mittal
               </p>
               <a
                 href="https://pubmed.ncbi.nlm.nih.gov/32709788/"
-                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                className="text-sm text-stone-700 dark:text-stone-300 mx-auto max-w-4xl"
                 target="_blank"
               >
                 https://pubmed.ncbi.nlm.nih.gov/32709788
@@ -163,33 +163,33 @@ export default function Abour() {
           </div>
           <br />
 
-          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-stone-800 dark:text-stone-200 font-bold">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-xl font-bold text-black dark:text-white">
+              <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Research Publication
               </div>
-              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-bold text-stone-700 dark:text-stone-300">
                 DOI: 2019
               </div>
-              {/* <div className="text-xl font-bold text-black dark:text-white">
+              {/* <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Oculoplasty
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-normal text-stone-700 dark:text-stone-200">
                 LVPEI
               </div> */}
             </div>
             <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-2xl text-black dark:text-white font-semibold">
+              <div className="text-2xl text-stone-800 dark:text-stone-200 font-semibold">
                 Thyroid eye disease survey: An anonymous web-based survey in the
                 Indian subcontinent
               </div>
-              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+              <p className="text-lg text-stone-700 dark:text-stone-300 mx-auto max-w-4xl">
                 Anuradha Pradhan, Anasua Ganguly, Milind N Naik, Akshay
                 Gopinathan Nair, Savari Desai, Suryasnata Rath
               </p>
               <a
                 href="https://pubmed.ncbi.nlm.nih.gov/31821863/"
-                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                className="text-sm text-stone-700 dark:text-stone-300 mx-auto max-w-4xl"
                 target="_blank"
               >
                 https://pubmed.ncbi.nlm.nih.gov/31821863
@@ -198,33 +198,33 @@ export default function Abour() {
           </div>
           <br />
 
-          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-black dark:text-white font-bold ">
+          <div className="w-full relative px-[5vw] flex flex-col sm:flex-row justify-evenly items-start xl:flex-row xl:justify-center 2xl:justify-evenly gap-4 text-3xl text-stone-800 dark:text-stone-200 font-bold ">
             <div className="flex flex-col items-start bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-xl font-bold text-black dark:text-white">
+              <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Research Publication
               </div>
-              <div className="text-sm font-bold text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-bold text-stone-700 dark:text-stone-300">
                 DOI: 2016
               </div>
-              {/* <div className="text-xl font-bold text-black dark:text-white">
+              {/* <div className="text-xl font-bold text-stone-800 dark:text-stone-200">
                 Oculoplasty
               </div>
-              <div className="text-sm font-normal text-gray-700 dark:text-gray-300">
+              <div className="text-sm font-normal text-stone-700 dark:text-stone-200">
                 LVPEI
               </div> */}
             </div>
             <div className="aspect-w-1 aspect-h-1 bg-white dark:bg-zinc-950 p-6 rounded-lg shadow-sm dark:shadow-gray-800">
-              <div className="text-2xl text-black dark:text-white font-semibold">
+              <div className="text-2xl text-stone-800 dark:text-stone-200 font-semibold">
                 Tenzel’s: an adorable reconstruction surgery to create beautiful
                 near normal eyelids.
               </div>
-              <p className="text-lg text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+              <p className="text-lg text-stone-700 dark:text-stone-300 mx-auto max-w-4xl">
                 Anuradha Pradhan, Ratan Deep Kumar Agrawalla, Sharmistha Behera,
                 Pramod Kumar Sharma, Kanhei Charan
               </p>
               <a
                 href="https://www.ijooo.org/article-details/3085/"
-                className="text-sm text-gray-700 dark:text-gray-300 mx-auto max-w-4xl"
+                className="text-sm text-stone-700 dark:text-stone-300 mx-auto max-w-4xl"
                 target="_blank"
               >
                 https://www.ijooo.org/article-details/3085

@@ -31,7 +31,7 @@ const BottomCornerNav = () => {
       {/* FAB Toggle Button */}
       <button
         onClick={toggleMenu}
-        className="fixed bottom-6 right-6 z-[1000] w-12 h-12 rounded-full bg-primary text-white shadow-lg flex items-center justify-center transition-colors hover:bg-primary/90 dark:bg-primary-light dark:hover:bg-primary-light/90 dark:text-black
+        className="fixed bottom-6 right-6 z-[1000] w-12 h-12 rounded-full bg-stone-800 text-white shadow-lg flex items-center justify-center transition-colors hover:bg-primary/90 dark:bg-stone-200 dark:hover:bg-primary-light/90 dark:text-black
 "
         aria-label="Toggle Navigation"
       >
@@ -58,15 +58,15 @@ const BottomCornerNav = () => {
                     onClick={closeMenu}
                     className={`w-full text-sm font-medium px-3 py-2 rounded-md transition-colors ${
                       isActive
-                        ? "bg-gray-200 dark:bg-gray-800 font-bold text-gray-900 dark:text-white"
-                        : "text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary-light"
+                        ? "bg-stone-200 dark:bg-stone-900 font-bold text-stone-800 dark:text-stone-200"
+                        : "text-stone-800 dark:text-stone-200 hover:text-primary dark:hover:text-primary-light"
                     }`}
                   >
                     {label}
                   </Link>
                 );
               })}
-              <div onClick={closeMenu}>
+              <div onClick={closeMenu} className="p-1 border-2 rounded-full">
                 <ThemeSwitchBtn />
               </div>
             </nav>

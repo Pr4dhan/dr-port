@@ -10,11 +10,11 @@ export default function Appointment() {
     <>
       <div className={"min-h-screen flex flex-col"}>
         <div className="flex flex-col justify-center items-center w-full text-center mb-12 xl:justify-items-center pt-25 text-3xl text-black dark:text-white font-bold">
-          <div className="text-2xl md:text-4xl text-black dark:text-white font-semibold mb-4">
+          <div className="text-2xl md:text-4xl text-stone-800 dark:text-stone-200 font-semibold mb-4">
             Hospital Visit Schedule
           </div>
 
-          <p className="text-base md:text-xl text-gray-700 dark:text-gray-300 mx-auto max-w-4xl">
+          <p className="text-base md:text-xl text-stone-700 dark:text-stone-300 mx-auto max-w-4xl">
             Find the days and times when Dr. Anuradha Pradhan is available at
             listed hospitals
           </p>
