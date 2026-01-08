@@ -50,11 +50,15 @@ export default function Footer() {
           from-[#a0a0a0] via-[#e8e8e8] to-[#ffffff]
           dark:from-[#8c8c8c] dark:via-[#2b2b2b] dark:to-[#010101]
           opacity-90
-          text-[clamp(2rem,6vw,7rem)]
+          text-4xl sm:text-6xl md:text-7xl lg:text-8xl
           -z-[1]"
       >
         DrAnuradhaPradhan
       </h1>
-    </footer>
+    </footer> 
   );
 }
+
+
+// text-[clamp(2rem,6vw,7rem)]
+// text-4xl md:text-[6rem]s
