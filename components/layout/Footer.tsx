@@ -9,7 +9,7 @@ export default function Footer() {
           <li>
             <Link
               href="./"
-              className="text-stone-600 dark:text-stone-400 hover:text-stone-400 font-bold dark:hover:text-stone-200"
+              className="text-stone-600 dark:text-stone-400 hover:text-stone-800 font-bold dark:hover:text-stone-200"
             >
               Home
             </Link>
@@ -17,7 +17,7 @@ export default function Footer() {
           <li>
             <Link
               href="/about"
-              className="text-stone-600 dark:text-stone-400 hover:text-stone-400 font-bold dark:hover:text-stone-200"
+              className="text-stone-600 dark:text-stone-400 hover:text-stone-800 font-bold dark:hover:text-stone-200"
             >
               About
             </Link>
@@ -25,7 +25,7 @@ export default function Footer() {
           <li>
             <Link
               href="/expert"
-              className="text-stone-600 dark:text-stone-400 hover:text-stone-400 font-bold dark:hover:text-stone-200"
+              className="text-stone-600 dark:text-stone-400 hover:text-stone-800 font-bold dark:hover:text-stone-200"
             >
               Expertise
             </Link>
