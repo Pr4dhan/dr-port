@@ -1,30 +1,30 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { usePathname } from 'next/navigation'
-import Link from 'next/link'
-import { AnimatePresence, motion } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
+import { useState } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
 import ThemeSwitchBtn from "@/components/layout/buttons/ThemeSwitchBtn";
 
 const BottomCornerNav = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const pathname = usePathname()
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
-    setIsOpen(prev => !prev)
-  }
+    setIsOpen((prev) => !prev);
+  };
 
   const closeMenu = () => {
-    setIsOpen(false)
-  }
+    setIsOpen(false);
+  };
 
   const links = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/expert', label: 'Expertise' },
-    { href: '/appointment', label: 'Book Appointment' },
-  ]
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/expert", label: "Expertise" },
+    { href: "/appointment", label: "Book Appointment" },
+  ];
 
   return (
     <>
@@ -42,15 +42,15 @@ const BottomCornerNav = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ y: '100%' }}
+            initial={{ y: "100%" }}
             animate={{ y: 0 }}
-            exit={{ y: '100%' }}
-            transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+            exit={{ y: "100%" }}
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
             className="fixed bottom-0 left-0 right-0 z-[999] bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 shadow-2xl px-8 pt-6 pb-10"
           >
             <nav className="flex flex-col items-start gap-4">
               {links.map(({ href, label }) => {
-                const isActive = pathname === href
+                const isActive = pathname === href;
                 return (
                   <Link
                     key={href}
@@ -58,15 +58,15 @@ const BottomCornerNav = () => {
                     onClick={closeMenu}
                     className={`w-full text-sm font-medium px-3 py-2 rounded-md transition-colors ${
                       isActive
-                        ? 'bg-gray-200 dark:bg-gray-800 font-bold text-gray-900 dark:text-white'
-                        : 'text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary-light'
+                        ? "bg-gray-200 dark:bg-gray-800 font-bold text-gray-900 dark:text-white"
+                        : "text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary-light"
                     }`}
                   >
                     {label}
                   </Link>
-                )
+                );
               })}
-              <div className="mt-4">
+              <div onClick={closeMenu}>
                 <ThemeSwitchBtn />
               </div>
             </nav>
@@ -74,8 +74,7 @@ const BottomCornerNav = () => {
         )}
       </AnimatePresence>
     </>
-  )
-}
+  );
+};
 
-export default BottomCornerNav
-
+export default BottomCornerNav;
