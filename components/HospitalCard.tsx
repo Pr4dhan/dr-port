@@ -21,9 +21,9 @@ const HospitalCard = ({
   phone,
   phone2,
 }: // isOpen = true,
-  HospitalCardProps) => {
+HospitalCardProps) => {
   return (
-    <div className="w-full max-w-md p-6 bg-white dark:bg-zinc-950 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-md transition-all duration-300 hover:shadow-lg">
+    <div className="w-full max-w-md p-6 bg-white dark:bg-zinc-950 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-md hover:shadow-lg">
       <div className="flex gap-4 items-start">
         {/* Hospital Image */}
         <div className="flex-shrink-0">
