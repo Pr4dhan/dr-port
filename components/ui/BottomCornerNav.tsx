@@ -31,8 +31,7 @@ const BottomCornerNav = () => {
       {/* FAB Toggle Button */}
       <button
         onClick={toggleMenu}
-        className="fixed bottom-6 right-6 z-[1000] w-12 h-12 rounded-full bg-stone-800 text-white shadow-lg flex items-center justify-center transition-colors hover:bg-primary/90 dark:bg-stone-200 dark:hover:bg-primary-light/90 dark:text-black
-"
+        className="fixed bottom-6 right-6 z-[1000] w-12 h-12 rounded-full bg-stone-800 text-white shadow-lg flex items-center justify-center transition-colors hover:bg-primary/90 dark:bg-stone-200 dark:hover:bg-primary-light/90 dark:text-black"
         aria-label="Toggle Navigation"
       >
         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -45,7 +44,7 @@ const BottomCornerNav = () => {
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
-            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            transition={{ type: "spring", stiffness: 300, damping: 30, mass: 0.8 }}
             className="fixed bottom-0 left-0 right-0 z-[999] bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 shadow-2xl px-8 pt-6 pb-10"
           >
             <nav className="flex flex-col items-start gap-4">
